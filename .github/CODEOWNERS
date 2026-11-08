@@ -1,5 +1,5 @@
-/.devcontainer/      @ORGANISATION/tech-leads
-/.github/            @ORGANISATION/tech-leads
-/compose.yaml        @ORGANISATION/tech-leads
-/eslint.config.mjs   @ORGANISATION/tech-leads
-package.json         @ORGANISATION/tech-leads
+/.devcontainer/      @Hetic-Hackathon-Givaudan-2026-Diffo/tech-leads
+/.github/            @Hetic-Hackathon-Givaudan-2026-Diffo/tech-leads
+/compose.yaml        @Hetic-Hackathon-Givaudan-2026-Diffo/tech-leads
+/eslint.config.mjs   @Hetic-Hackathon-Givaudan-2026-Diffo/tech-leads
+package.json         @Hetic-Hackathon-Givaudan-2026-Diffo/tech-leads
