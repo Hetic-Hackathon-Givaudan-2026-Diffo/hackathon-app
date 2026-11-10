@@ -1,6 +1,6 @@
 # 0004. Exposer le travail Data par un service Python dans ce dépôt
 
-- Statut : proposée
+- Statut : acceptée
 - Date : 2026-11-09
 - Décideurs : Erica, Valentin, Jae-heun
 
