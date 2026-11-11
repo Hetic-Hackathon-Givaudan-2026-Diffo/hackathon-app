@@ -1,0 +1,49 @@
+openapi: 3.1.0
+info:
+  title: API du prototype
+  version: 0.1.0
+  description: >
+    Contrat entre le front (web/) et l'API (api/). Fondation : les routes des
+    écrans s'ajoutent une par une, par pull request, une fois les maquettes
+    validées. Toutes les données sont simulées.
+servers:
+  - url: http://localhost:3000
+    description: API dans le dev container
+
+# Pas d'authentification : l'API ne tourne qu'en local, le prototype n'est
+# jamais publié en ligne, et les données sont simulées.
+security: []
+
+paths:
+  /api/health:
+    get:
+      summary: Vérifier que l'API et la base répondent
+      responses:
+        '200':
+          description: API disponible
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [status]
+                properties:
+                  status:
+                    type: string
+                    example: ok
+        '503':
+          description: La base de données ne répond pas
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Erreur'
+
+components:
+  schemas:
+    Erreur:
+      description: Format commun de toutes les erreurs de l'API
+      type: object
+      required: [erreur]
+      properties:
+        erreur:
+          type: string
+          example: La base de données ne répond pas
