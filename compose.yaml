@@ -16,6 +16,14 @@ services:
     depends_on:
       db:
         condition: service_healthy
+      ia:
+        condition: service_started
+
+  # Le service IA (FastAPI), appelé par l'API sur http://ia:8000
+  ia:
+    build: ./ia
+    ports:
+      - '8000:8000'
 
   db:
     image: postgres:17

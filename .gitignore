@@ -2,3 +2,11 @@ node_modules/
 dist/
 .env
 db/data/
+
+# Python : environnements virtuels et caches
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Réglages des éditeurs, propres à chaque poste
+.idea/

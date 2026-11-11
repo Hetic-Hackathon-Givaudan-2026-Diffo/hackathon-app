@@ -1,0 +1,76 @@
+# Contrat entre l'API (Tech) et le service IA (Data). Voir docs/adr/0004.
+# Tout changement de route ou de format passe par une pull request relue par les deux côtés.
+openapi: 3.1.0
+info:
+  title: Service IA
+  version: 0.1.0
+paths:
+  /health:
+    get:
+      summary: Le service est-il en vie ?
+      responses:
+        '200':
+          description: Le service répond
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [status]
+                properties:
+                  status:
+                    type: string
+                    example: ok
+  /questions:
+    post:
+      summary: Poser une question au service IA
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Question'
+      responses:
+        '200':
+          description: Réponse du service (fixe dans cette version)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Reponse'
+        '422':
+          description: Question manquante ou vide
+components:
+  schemas:
+    Question:
+      type: object
+      required: [question]
+      properties:
+        question:
+          type: string
+          minLength: 1
+          example: Que recommandes-tu ?
+    Reponse:
+      type: object
+      required: [question, answer, verdict, raisons, recommendation, source]
+      properties:
+        question:
+          type: string
+          description: La question reçue, renvoyée telle quelle
+        answer:
+          type: string
+          description: Texte de la réponse conversationnelle
+        verdict:
+          type: string
+          enum: [durable, buzz]
+          example: durable
+        raisons:
+          type: array
+          minItems: 1
+          description: Au moins une raison qui explique le verdict
+          items:
+            type: string
+        recommendation:
+          type: string
+        source:
+          type: string
+          description: « fixe » tant que le vrai calcul n'existe pas
+          example: fixe
