@@ -10,3 +10,4 @@ __pycache__/
 
 # Réglages des éditeurs, propres à chaque poste
 .idea/
+.claude/
