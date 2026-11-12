@@ -1,0 +1,442 @@
+.distillery {
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 3vw, 2.5rem) 3rem;
+}
+
+.distillery-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  align-items: end;
+  gap: 0.5rem 3rem;
+  padding-block: clamp(1.5rem, 3vw, 2.25rem) clamp(1.25rem, 2.5vw, 2rem);
+}
+
+.distillery-intro .eyebrow {
+  grid-column: 1 / -1;
+}
+
+.distillery-intro h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4.2vw, 3.6rem);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+
+.distillery-intro h1 em {
+  font-weight: 400;
+  color: var(--color-accent);
+}
+
+.distillery-lead {
+  margin: 0;
+  max-width: 34rem;
+  color: var(--color-ink-muted);
+}
+
+.distillery-layout {
+  display: grid;
+  grid-template-columns: 18rem minmax(0, 1fr);
+  gap: clamp(1.25rem, 2.5vw, 2.5rem);
+  align-items: start;
+}
+
+/* Panneau de filtres et classement */
+.filter-panel {
+  position: sticky;
+  top: 5rem;
+  max-height: calc(100vh - 6rem);
+  overflow-y: auto;
+  padding: 1.25rem 1.1rem 1.5rem;
+  border: 1px solid var(--color-rule);
+  border-radius: 1.25rem;
+  background: var(--color-surface);
+  scrollbar-width: thin;
+}
+
+.panel-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+
+.filter-group {
+  margin: 0.9rem 0 0;
+  padding: 0;
+  border: 0;
+}
+
+.filter-group legend {
+  margin-bottom: 0.45rem;
+  padding: 0;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+/* Une puce choisie : fond encre, pastille pleine et texte gras, pas seulement une couleur */
+.chip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--color-rule-strong);
+  border-radius: 999px;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.chip::before,
+.chip span::before {
+  content: '';
+  width: 0.45rem;
+  height: 0.45rem;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+}
+
+label.chip::before {
+  content: none;
+}
+
+.chip span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.chip input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.chip:hover {
+  border-color: var(--color-accent);
+}
+
+.chip[aria-pressed='true'],
+.chip:has(input:checked) {
+  border-color: var(--color-ink);
+  background: var(--color-ink);
+  color: var(--color-paper);
+  font-weight: 600;
+}
+
+.chip[aria-pressed='true']::before,
+.chip input:checked + span::before {
+  background: currentColor;
+}
+
+.chip:has(input:focus-visible) {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.panel-list-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--color-rule);
+}
+
+.panel-list-head p {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+}
+
+.panel-empty {
+  margin: 0.75rem 0 0;
+  font-size: 0.85rem;
+  color: var(--color-ink-muted);
+}
+
+.tube-rows {
+  margin: 0.6rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tube-row {
+  display: grid;
+  grid-template-columns: 1.6rem minmax(0, 1fr) 4.75rem;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 0.5rem;
+  border: 1px solid transparent;
+  border-radius: 0.75rem;
+  color: var(--color-ink);
+  text-decoration: none;
+}
+
+.tube-row:hover,
+.tube-row.is-active {
+  border-color: var(--color-accent);
+  background: var(--color-paper);
+}
+
+.tube-row-rank {
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+}
+
+.tube-row-name {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.tube-row-name strong {
+  font-size: 0.9rem;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tube-row-name small {
+  font-size: 0.72rem;
+  color: var(--color-ink-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tube-row-score {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.25rem;
+}
+
+.tube-row-score .mono {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.tube-row-bar {
+  display: block;
+  align-self: stretch;
+  height: 3px;
+  max-width: 100%;
+  border-radius: 2px;
+  background: var(--color-ink);
+}
+
+.tube-row-score .verdict-badge {
+  font-size: 0.62rem;
+  padding: 0 0.4rem;
+}
+
+/* Paillasse : scène, parcours, cartes */
+.bench {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-width: 0;
+}
+
+.journey {
+  padding: 1.1rem 1.25rem 1.25rem;
+  border: 1px solid var(--color-rule);
+  border-radius: 1.25rem;
+  background: var(--color-surface);
+}
+
+.journey-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.journey-controls {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.journey-controls button {
+  padding: 0.2rem 0.65rem;
+  border: 1px solid var(--color-rule-strong);
+  border-radius: 999px;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font: inherit;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.journey-controls button:hover {
+  border-color: var(--color-accent);
+}
+
+.journey-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 1rem 1.5rem;
+  margin: 0.9rem 0 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: none;
+}
+
+.journey-steps li {
+  position: relative;
+  padding-top: 0.75rem;
+  border-top: 2px solid var(--color-ink);
+}
+
+.journey-number {
+  font-size: 0.72rem;
+  color: var(--color-accent);
+}
+
+.journey-steps h3 {
+  margin: 0.1rem 0 0.35rem;
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.journey-steps p {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.journey-steps small {
+  display: block;
+  margin-top: 0.3rem;
+  font-size: 0.72rem;
+  color: var(--color-ink-muted);
+}
+
+.journey-live {
+  animation: journey-in 400ms ease both;
+}
+
+@keyframes journey-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+
+.bench > section > .eyebrow {
+  margin-bottom: 0.75rem;
+}
+
+.tube-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tube-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  height: 100%;
+  padding: 1rem 1.1rem 1rem;
+  border: 1px solid var(--color-rule);
+  border-radius: 1rem;
+  background: var(--color-surface);
+  color: var(--color-ink);
+  text-decoration: none;
+  transition:
+    transform 200ms ease,
+    border-color 200ms ease;
+}
+
+.tube-card:hover,
+.tube-card.is-active {
+  transform: translateY(-3px);
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-soft);
+}
+
+.tube-card-number {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--color-accent);
+}
+
+.tube-card-kind {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+}
+
+.tube-card-name {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.tube-card-verdict {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.2rem;
+  font-size: 0.85rem;
+}
+
+.tube-card-split {
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+}
+
+.tube-card-cta {
+  margin-top: auto;
+  padding-top: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
+
+/* Portable étroit, tablette, téléphone */
+@media (max-width: 64rem) {
+  .distillery-intro {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .distillery-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .filter-panel {
+    position: static;
+    max-height: none;
+  }
+}

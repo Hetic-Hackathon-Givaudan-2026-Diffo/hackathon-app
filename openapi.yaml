@@ -37,8 +37,263 @@ paths:
               schema:
                 $ref: '#/components/schemas/Erreur'
 
+  /api/tubes:
+    get:
+      summary: Lister les tubes de la Distillerie (écran d'accueil)
+      description: >
+        Les tubes qui ont un verdict, du plus haut score (confiance) au plus
+        bas, puis par nom. Les nombres de gouttes sont calculés par l'API sur
+        les gouttes classées, jamais stockés. Renvoie aussi tous les thèmes
+        connus, pour le panneau de filtres. Données simulées.
+      parameters:
+        - name: period
+          in: query
+          required: false
+          description: >
+            Ne garde que les tubes dont au moins une goutte classée a été
+            observée pendant la période, comptée à partir d'aujourd'hui :
+            1m (ce mois-ci, 1 mois), 6m, 12m, 36m (3 ans) ou all (sans limite).
+          schema:
+            $ref: '#/components/schemas/Period'
+        - name: theme
+          in: query
+          required: false
+          description: >
+            Thème à garder. Répétable : un tube est gardé s'il porte au moins un
+            des thèmes demandés. Sans ce paramètre, tous les thèmes.
+          style: form
+          explode: true
+          schema:
+            type: array
+            maxItems: 20
+            items:
+              type: string
+              minLength: 1
+              maxLength: 100
+          example: [Pâtisseries, Confiserie]
+      responses:
+        '200':
+          description: Les tubes qui répondent aux filtres (liste vide possible)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TubeList'
+        '400':
+          description: Paramètre de filtre invalide
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Erreur'
+              example:
+                erreur: 'Période inconnue : 2y. Valeurs possibles : 1m, 6m, 12m, 36m, all'
+        '503':
+          description: La base de données ne répond pas
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Erreur'
+
+  /api/tubes/{slug}:
+    get:
+      summary: Lire un tube (écran 3, « Lecture du tube »)
+      description: >
+        Un tube, ses gouttes (signaux observés) et la lecture de l'IA. Les
+        nombres de gouttes durables et buzz sont calculés par l'API, jamais
+        stockés. Données simulées.
+      parameters:
+        - name: slug
+          in: path
+          required: true
+          description: Identifiant lisible du tube
+          schema:
+            type: string
+            pattern: '^[a-z0-9]+(-[a-z0-9]+)*$'
+            example: yuzu-patisserie
+      responses:
+        '200':
+          description: Le tube demandé
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Tube'
+        '404':
+          description: Aucun tube ne porte ce slug
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Erreur'
+              example:
+                erreur: 'Tube introuvable : vanille-fumee'
+        '503':
+          description: La base de données ne répond pas
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Erreur'
+
 components:
   schemas:
+    Verdict:
+      description: Classement d'un tube ou d'une goutte
+      type: string
+      enum: [durable, buzz]
+    Tube:
+      type: object
+      required:
+        [
+          slug,
+          name,
+          kind,
+          verdict,
+          confidence,
+          dropCounts,
+          drops,
+          aiReading,
+          donneesSimulees,
+        ]
+      properties:
+        slug:
+          type: string
+          example: yuzu-patisserie
+        name:
+          type: string
+          example: Yuzu en pâtisserie
+        kind:
+          type: string
+          enum: [catalogue, new]
+          description: catalogue (déjà au catalogue) ou new (nouveauté)
+        verdict:
+          $ref: '#/components/schemas/Verdict'
+        confidence:
+          type: number
+          minimum: 0
+          maximum: 1
+          description: Confiance dans le verdict, de 0 à 1
+          example: 0.82
+        dropCounts:
+          $ref: '#/components/schemas/DropCounts'
+        drops:
+          type: array
+          description: Gouttes du tube, de la plus récente à la plus ancienne
+          items:
+            $ref: '#/components/schemas/Drop'
+        aiReading:
+          $ref: '#/components/schemas/AiReading'
+        donneesSimulees:
+          type: boolean
+          const: true
+    Period:
+      description: Fenêtre d'observation, comptée à partir d'aujourd'hui
+      type: string
+      enum: ['1m', '6m', '12m', '36m', all]
+      default: all
+    TubeList:
+      type: object
+      required: [period, tubes, themes, donneesSimulees]
+      properties:
+        period:
+          $ref: '#/components/schemas/Period'
+        tubes:
+          type: array
+          description: Du plus haut score au plus bas, puis par nom
+          items:
+            $ref: '#/components/schemas/TubeSummary'
+        themes:
+          type: array
+          description: Tous les thèmes connus, triés, quels que soient les filtres
+          items:
+            type: string
+          example: [Boissons, Cafétéria, Confiserie, Pâtisseries]
+        donneesSimulees:
+          type: boolean
+          const: true
+    TubeSummary:
+      description: Un tube vu depuis la Distillerie, sans le détail des gouttes
+      type: object
+      required:
+        [slug, name, kind, themes, verdict, confidence, dropCounts, latestDrop]
+      properties:
+        slug:
+          type: string
+          example: yuzu-patisserie
+        name:
+          type: string
+          example: Yuzu en pâtisserie
+        kind:
+          type: string
+          enum: [catalogue, new]
+        themes:
+          type: array
+          items:
+            type: string
+          example: [Pâtisseries]
+        verdict:
+          $ref: '#/components/schemas/Verdict'
+        confidence:
+          type: number
+          minimum: 0
+          maximum: 1
+          description: Score du tube, c'est-à-dire la confiance dans le verdict
+          example: 0.82
+        dropCounts:
+          $ref: '#/components/schemas/DropCounts'
+        latestDrop:
+          description: La goutte classée la plus récente, ou null si aucune
+          oneOf:
+            - $ref: '#/components/schemas/Drop'
+            - type: 'null'
+    DropCounts:
+      description: Calculé à partir de drops, jamais stocké
+      type: object
+      required: [total, durable, buzz]
+      properties:
+        total:
+          type: integer
+          minimum: 0
+          example: 9
+        durable:
+          type: integer
+          minimum: 0
+          example: 7
+        buzz:
+          type: integer
+          minimum: 0
+          example: 2
+    Drop:
+      description: Une goutte, c'est-à-dire un signal observé
+      type: object
+      required: [date, place, sourceType, text, verdict, reasons]
+      properties:
+        date:
+          type: string
+          format: date
+          example: '2026-09-14'
+        place:
+          type: string
+          example: Lyon
+        sourceType:
+          type: string
+          example: Carte de restaurant
+        text:
+          type: string
+        verdict:
+          $ref: '#/components/schemas/Verdict'
+        reasons:
+          type: array
+          minItems: 1
+          description: Au moins une raison qui explique le verdict
+          items:
+            type: string
+    AiReading:
+      description: Texte produit par l'IA, affiché avec la mention « Rédigé par une IA »
+      type: object
+      required: [summary, whatWouldChange]
+      properties:
+        summary:
+          type: string
+        whatWouldChange:
+          type: string
+          description: Ce qui ferait changer le verdict
     Erreur:
       description: Format commun de toutes les erreurs de l'API
       type: object

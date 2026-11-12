@@ -3,7 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hackathon</title>
+    <meta name="color-scheme" content="light dark" />
+    <title>TrendLab</title>
+    <script>
+      // Applique le thème mémorisé avant le premier rendu, sans flash
+      // (même clé que web/src/infrastructure/themeStorage.ts)
+      try {
+        var storedTheme = localStorage.getItem('trendlab-theme');
+        if (storedTheme === 'light' || storedTheme === 'dark') {
+          document.documentElement.dataset.theme = storedTheme;
+        }
+      } catch (error) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>
