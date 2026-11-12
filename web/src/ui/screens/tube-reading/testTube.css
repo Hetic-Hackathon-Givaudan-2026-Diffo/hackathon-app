@@ -1,0 +1,170 @@
+.test-tube {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.tube-shadow {
+  fill: var(--glass-shadow);
+}
+
+.tube-glass-body {
+  fill: var(--glass-fill);
+}
+
+.tube-glass-outline {
+  fill: none;
+  stroke: var(--glass-stroke);
+  stroke-width: 2.5;
+}
+
+.tube-lip {
+  fill: var(--color-surface);
+  stroke: var(--glass-stroke);
+  stroke-width: 2.5;
+}
+
+.tube-shine,
+.tube-drops,
+.tube-meniscus,
+.tube-scale,
+.tube-level {
+  pointer-events: none;
+}
+
+.tube-shine rect {
+  fill: var(--glass-shine);
+}
+
+/* Couches : foncées pour les durables, ambre hachurée pour les buzz */
+.tube-layer {
+  stroke: var(--layer-separator);
+  stroke-width: 1;
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  transition: opacity 160ms ease;
+  animation: tube-layer-fill 320ms cubic-bezier(0.2, 0.7, 0.3, 1) backwards;
+  animation-delay: var(--delay);
+}
+
+.test-tube-mini .tube-layer {
+  animation: none;
+}
+
+.tube-layer-durable {
+  fill: var(--layer-durable);
+}
+
+.tube-hatch-base {
+  fill: var(--layer-buzz);
+}
+
+.tube-hatch-line {
+  fill: var(--layer-buzz-hatch);
+}
+
+.test-tube-stage .tube-layer {
+  cursor: pointer;
+}
+
+.tube-layers.has-active .tube-layer:not(.is-active) {
+  opacity: 0.4;
+}
+
+.tube-layer.is-active {
+  stroke: var(--color-ink);
+  stroke-width: 2.5;
+}
+
+.tube-meniscus {
+  fill: var(--meniscus);
+}
+
+/* Gouttes en chute */
+.tube-drop {
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: tube-drop-fall 400ms cubic-bezier(0.55, 0, 0.9, 0.5) both;
+  animation-delay: var(--delay);
+}
+
+.tube-drop-durable {
+  fill: var(--layer-durable);
+}
+
+.tube-drop-buzz {
+  fill: var(--layer-buzz);
+}
+
+/* Ce qui n'apparaît qu'une fois le tube rempli */
+.tube-settled {
+  animation: tube-settle 500ms ease backwards;
+  animation-delay: var(--settled-delay);
+}
+
+.test-tube-mini .tube-settled {
+  animation: none;
+}
+
+.tube-scale line {
+  stroke: var(--glass-stroke);
+  stroke-width: 1.25;
+}
+
+.tube-scale text,
+.tube-level text {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  fill: var(--color-ink-muted);
+}
+
+.tube-level line {
+  stroke: var(--color-ink);
+  stroke-width: 1.5;
+  stroke-dasharray: 3 3;
+}
+
+.tube-level text {
+  font-size: 15px;
+  font-weight: 600;
+  fill: var(--color-ink);
+}
+
+@keyframes tube-layer-fill {
+  from {
+    transform: scaleY(0);
+  }
+}
+
+@keyframes tube-drop-fall {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  12% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 1;
+    transform: translateY(var(--fall));
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(var(--fall)) scale(1.4, 0.4);
+  }
+}
+
+@keyframes tube-settle {
+  from {
+    opacity: 0;
+  }
+}
+
+/* Animations réduites : le tube s'affiche directement rempli */
+@media (prefers-reduced-motion: reduce) {
+  .tube-drops {
+    display: none;
+  }
+}

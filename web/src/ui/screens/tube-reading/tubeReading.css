@@ -1,0 +1,433 @@
+.breadcrumb {
+  padding-top: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--color-ink-muted);
+}
+
+.breadcrumb .mono {
+  font-size: 0.8rem;
+}
+
+/* Le nom du tube, en très grand */
+.tube-title {
+  padding-block: clamp(1.5rem, 4vw, 3rem) clamp(1.5rem, 3vw, 2.5rem);
+  border-bottom: 1px solid var(--color-rule);
+  margin-bottom: clamp(1.5rem, 4vw, 3rem);
+}
+
+.tube-title h1 {
+  margin: 0.4rem 0 0;
+  font-family: var(--font-display);
+  font-size: clamp(2.75rem, 7.5vw, 6.25rem);
+  font-weight: 500;
+  line-height: 0.95;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+/* La scène : le tube à gauche, le récit à droite */
+.stage {
+  display: grid;
+  grid-template-columns: minmax(14rem, 0.85fr) minmax(0, 1.4fr);
+  gap: clamp(2rem, 6vw, 5.5rem);
+  align-items: start;
+}
+
+.stage-tube {
+  position: sticky;
+  top: 5.5rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.stage-tube .test-tube {
+  width: auto;
+  max-width: 100%;
+  height: min(calc(100vh - 13rem), 38rem);
+  min-height: 22rem;
+}
+
+.stage-status {
+  align-self: center;
+  font-family: var(--font-mono);
+  color: var(--color-ink-muted);
+}
+
+.stage-message h1 {
+  margin: 0.5rem 0 1rem;
+  font-family: var(--font-display);
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.stage-message p:not(.eyebrow) {
+  max-width: 34rem;
+  font-size: 1.1rem;
+}
+
+.tube-caption {
+  min-height: 1.5em;
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--color-ink);
+}
+
+.tube-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.35rem 0.5rem;
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--color-ink-muted);
+}
+
+.legend-swatch {
+  display: inline-block;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 2px;
+  margin-left: 0.4rem;
+}
+
+.legend-swatch-durable {
+  background: var(--layer-durable);
+}
+
+.legend-swatch-buzz {
+  background: repeating-linear-gradient(
+    45deg,
+    var(--layer-buzz) 0 4px,
+    var(--layer-buzz-hatch) 4px 6px
+  );
+}
+
+.legend-note {
+  margin-left: 0.6rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+}
+
+.stage-story {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2.5rem, 5vw, 4rem);
+  min-width: 0;
+}
+
+/* Le verdict */
+.verdict-word {
+  margin: 0.25rem 0 0;
+  font-family: var(--font-display);
+  font-size: clamp(4rem, 11vw, 8.5rem);
+  font-style: italic;
+  font-weight: 500;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+}
+
+.verdict-word-durable {
+  color: var(--color-accent);
+}
+
+.verdict-word-buzz {
+  color: var(--color-amber);
+}
+
+.verdict-tagline {
+  margin: 1rem 0 1.75rem;
+  max-width: 30rem;
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  line-height: 1.35;
+}
+
+.verdict-figures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 3rem;
+  margin: 0;
+}
+
+.verdict-figures dt {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+}
+
+.verdict-figures dd {
+  margin: 0.15rem 0 0;
+  font-size: clamp(1.4rem, 2.6vw, 1.9rem);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.confidence-meter {
+  position: relative;
+  height: 0.35rem;
+  margin-top: 1.25rem;
+  max-width: 30rem;
+  border-radius: 999px;
+  background: var(--color-rule);
+  overflow: hidden;
+}
+
+.confidence-meter::after {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: calc(var(--confidence) * 100%);
+  border-radius: inherit;
+  background: var(--color-ink);
+  transform-origin: left;
+  animation: meter-grow 1.2s cubic-bezier(0.2, 0.7, 0.3, 1) 0.3s backwards;
+}
+
+@keyframes meter-grow {
+  from {
+    transform: scaleX(0);
+  }
+}
+
+.section-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.section-heading p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--color-ink-muted);
+}
+
+/* Frise chronologique des gouttes */
+.timeline {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 1.5rem;
+  bottom: 1.5rem;
+  left: 1.05rem;
+  width: 1px;
+  background: var(--color-rule-strong);
+}
+
+.timeline-item {
+  position: relative;
+  padding: 1rem 1rem 1rem 2.75rem;
+  border-radius: 0.75rem;
+  transition:
+    background-color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.timeline-item:hover,
+.timeline-item.is-active {
+  background: var(--color-surface);
+  box-shadow: var(--shadow-soft);
+}
+
+.timeline-node {
+  position: absolute;
+  top: 1.3rem;
+  left: 0.6rem;
+  width: 0.95rem;
+  height: 0.95rem;
+  border-radius: 50%;
+  border: 2px solid var(--layer-durable);
+  background: var(--layer-durable);
+  transition: transform 160ms ease;
+}
+
+.timeline-item-buzz .timeline-node {
+  border-color: var(--color-amber);
+  background: var(--color-paper);
+}
+
+.timeline-item.is-active .timeline-node {
+  transform: scale(1.35);
+  box-shadow: 0 0 0 4px var(--color-accent-soft);
+}
+
+.timeline-item-buzz.is-active .timeline-node {
+  box-shadow: 0 0 0 4px var(--color-amber-soft);
+}
+
+.timeline-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 1rem;
+}
+
+.timeline-meta time {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.timeline-number {
+  font-size: 0.72rem;
+  color: var(--color-ink-muted);
+}
+
+.timeline-meta .verdict-badge {
+  margin-left: auto;
+}
+
+.timeline-source {
+  margin: 0.35rem 0 0;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+}
+
+.timeline-text {
+  margin: 0.3rem 0 0.5rem;
+  font-family: var(--font-display);
+  font-size: 1.18rem;
+  line-height: 1.4;
+}
+
+.timeline-reasons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.88rem;
+  color: var(--color-ink-muted);
+}
+
+.timeline-reasons .mono {
+  margin-right: 0.4rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-ink);
+}
+
+/* Ce que lit l'IA : une note de laboratoire, sur papier ligné */
+.lab-note {
+  position: relative;
+  padding: 1.5rem clamp(1.25rem, 3vw, 2rem) 1.75rem clamp(2.75rem, 5vw, 3.5rem);
+  border: 1px solid var(--color-rule);
+  border-radius: 0.35rem;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0 1.85rem,
+      var(--note-line) 1.85rem calc(1.85rem + 1px)
+    ),
+    var(--note-paper);
+  box-shadow: var(--shadow-soft);
+}
+
+/* Trait de marge du cahier */
+.lab-note::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(clamp(2.75rem, 5vw, 3.5rem) - 0.9rem);
+  width: 1px;
+  background: var(--note-margin);
+}
+
+.lab-note-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.lab-note-stamp {
+  margin: 0;
+  padding: 0.2rem 0.6rem;
+  border: 1.5px solid var(--color-accent);
+  border-radius: 0.2rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  transform: rotate(-2.5deg);
+}
+
+.lab-note h2 {
+  margin: 0.75rem 0 0.5rem;
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.lab-note h3 {
+  margin: 1.25rem 0 0.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+}
+
+.lab-note p {
+  margin: 0;
+  line-height: 1.85rem;
+}
+
+.lab-note-summary {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+}
+
+/* Portable et téléphone */
+@media (max-width: 54rem) {
+  .stage {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .stage-tube {
+    position: static;
+  }
+
+  .stage-tube .test-tube {
+    height: 24rem;
+    min-height: 0;
+  }
+}
+
+@media (max-width: 30rem) {
+  .timeline-meta .verdict-badge {
+    margin-left: 0;
+  }
+}

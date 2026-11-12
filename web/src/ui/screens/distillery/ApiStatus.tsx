@@ -1,4 +1,4 @@
-import type { Health } from '../domain/health';
+import type { Health } from '../../../domain/health';
 
 export function ApiStatus({ health }: { health: Health }) {
   switch (health.state) {

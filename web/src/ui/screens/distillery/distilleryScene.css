@@ -1,0 +1,318 @@
+.scene-frame {
+  position: relative;
+  overflow-x: auto;
+  border: 1px solid var(--color-rule-strong);
+  border-radius: 1.5rem;
+  background: var(--scene-background);
+  box-shadow: var(--shadow-soft);
+}
+
+.scene {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.scene-message {
+  position: absolute;
+  top: 38%;
+  right: 1.5rem;
+  max-width: 18rem;
+  margin: 0;
+  padding: 0.75rem 1rem;
+  border: 1px dashed var(--color-rule-strong);
+  border-radius: 0.75rem;
+  background: var(--color-surface);
+  font-size: 0.9rem;
+  color: var(--color-ink);
+}
+
+.scene-bench {
+  fill: var(--scene-bench);
+}
+
+.scene-glass {
+  fill: var(--glass-fill);
+  stroke: var(--glass-stroke);
+  stroke-width: 2;
+}
+
+.scene-metal {
+  fill: var(--scene-metal);
+}
+
+.scene-metal-line {
+  fill: none;
+  stroke: var(--scene-metal);
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+.scene-pipe,
+.scene-pipe-edge,
+.scene-flow {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.scene-pipe-edge {
+  stroke: var(--scene-pipe-edge);
+  stroke-width: 24;
+}
+
+.scene-pipe {
+  stroke: var(--scene-pipe);
+  stroke-width: 20;
+}
+
+/* Le liquide qui circule dans le serpentin et la rampe */
+.scene-flow {
+  stroke: var(--scene-liquid);
+  stroke-width: 4;
+  stroke-dasharray: 1 16;
+  animation: scene-flow 1.1s linear infinite;
+}
+
+.scene-dropper {
+  fill: var(--scene-pipe);
+  stroke: var(--scene-pipe-edge);
+  stroke-width: 1.5;
+}
+
+.scene-liquid-fill {
+  fill: var(--scene-liquid);
+  opacity: 0.85;
+}
+
+.scene-wave {
+  animation: scene-wave 4s linear infinite;
+}
+
+.scene-bubble {
+  fill: var(--scene-bubble);
+  animation: scene-rise 2.6s ease-in infinite;
+  animation-delay: var(--delay, 0s);
+}
+
+.scene-shine-dot {
+  fill: var(--glass-shine);
+}
+
+.scene-flame {
+  transform-origin: 140px 584px;
+  animation: scene-flicker 1.2s ease-in-out infinite alternate;
+}
+
+.scene-flame-outer {
+  fill: var(--flame-outer);
+}
+
+.scene-flame-inner {
+  fill: var(--flame-inner);
+}
+
+/* Gouttes : même code que la lecture d'un tube */
+.scene-drop-durable {
+  fill: var(--layer-durable);
+}
+
+.scene-drop-buzz {
+  fill: var(--layer-buzz);
+}
+
+.scene-funnel-drop {
+  opacity: 0;
+  animation: scene-funnel-fall 2.7s ease-in infinite;
+  animation-delay: var(--delay);
+}
+
+.scene-drip {
+  opacity: 0;
+  animation: scene-drip 2.8s ease-in infinite;
+  animation-delay: var(--delay);
+}
+
+/* Les tubes de la paillasse */
+.scene-tube {
+  cursor: pointer;
+  outline: none;
+}
+
+.scene-tube-body {
+  transition: transform 220ms ease;
+}
+
+.scene-tube.is-active .scene-tube-body {
+  transform: translateY(-8px);
+}
+
+.scene-tube-glass {
+  fill: var(--glass-fill);
+}
+
+.scene-tube-outline {
+  fill: none;
+  stroke: var(--glass-stroke);
+  stroke-width: 2;
+}
+
+.scene-tube.is-active .scene-tube-outline {
+  stroke: var(--color-accent);
+  stroke-width: 3;
+}
+
+.scene-tube-lip {
+  fill: var(--color-surface);
+  stroke: var(--glass-stroke);
+  stroke-width: 2;
+}
+
+.scene-liquid {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: scene-fill 900ms cubic-bezier(0.2, 0.7, 0.2, 1) backwards;
+  animation-delay: var(--delay);
+}
+
+.scene-liquid-durable {
+  fill: var(--layer-durable);
+}
+
+.scene-hatch-base {
+  fill: var(--layer-buzz);
+}
+
+.scene-hatch-line {
+  fill: var(--layer-buzz-hatch);
+}
+
+.scene-shine {
+  fill: var(--glass-shine);
+  pointer-events: none;
+}
+
+.scene-score {
+  font-family: var(--font-mono);
+  font-size: 19px;
+  font-weight: 600;
+  fill: var(--color-ink);
+}
+
+.scene-score-unit {
+  font-size: 12px;
+  fill: var(--color-ink-muted);
+}
+
+.scene-tube.is-active .scene-score {
+  fill: var(--color-accent);
+}
+
+.scene-label {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  fill: var(--color-ink);
+}
+
+.scene-focus-ring {
+  fill: none;
+  stroke: var(--color-focus);
+  stroke-width: 2.5;
+  stroke-dasharray: 5 4;
+  opacity: 0;
+}
+
+.scene-tube:focus-visible .scene-focus-ring {
+  opacity: 1;
+}
+
+@keyframes scene-flow {
+  to {
+    stroke-dashoffset: -17;
+  }
+}
+
+@keyframes scene-wave {
+  to {
+    transform: translateX(-60px);
+  }
+}
+
+@keyframes scene-rise {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  30% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-34px);
+  }
+}
+
+@keyframes scene-flicker {
+  to {
+    transform: scale(0.94, 1.08);
+  }
+}
+
+@keyframes scene-funnel-fall {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  12% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+    transform: translateY(205px);
+  }
+  80%,
+  100% {
+    opacity: 0;
+    transform: translateY(205px);
+  }
+}
+
+@keyframes scene-drip {
+  0% {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  15% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 1;
+    transform: translateY(88px);
+  }
+  70%,
+  100% {
+    opacity: 0;
+    transform: translateY(88px);
+  }
+}
+
+@keyframes scene-fill {
+  from {
+    transform: scaleY(0);
+  }
+}
+
+/* Animations réduites : la scène est immobile, les tubes déjà remplis */
+@media (prefers-reduced-motion: reduce) {
+  .scene-funnel-drop,
+  .scene-drip {
+    display: none;
+  }
+
+  .scene-flow {
+    stroke-dasharray: none;
+    opacity: 0.6;
+  }
+}

@@ -1,5 +1,8 @@
 import express from 'express';
 import pg from 'pg';
+import { createPgTubeCatalog } from './infrastructure/pgTubeCatalog.js';
+import { createPgTubeReader } from './infrastructure/pgTubeReader.js';
+import { createTubesRouter } from './routes/tubes.js';
 
 // En dev, la configuration vient de api/.env ; en production, de l'hébergeur
 try {
@@ -19,6 +22,8 @@ app.get('/api/health', async (_req, res) => {
   const { rows } = await db.query('SELECT version()');
   res.json({ status: 'ok', db: rows[0].version });
 });
+
+app.use(createTubesRouter(createPgTubeReader(db), createPgTubeCatalog(db)));
 
 app.get('/api/questions', async (_req, res) => {
   const { rows } = await db.query(

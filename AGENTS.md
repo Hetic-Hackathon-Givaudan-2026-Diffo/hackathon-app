@@ -12,6 +12,7 @@ API Express et front Vite en TypeScript, PostgreSQL 17, service Data en Python d
 
 - `openapi.yaml` d'abord, le code ensuite. Aucune route hors contrat.
 - Routes de l'API : `api/src/`. Proxy `/api` : `web/vite.config.ts`.
+- Dans `web/src/ui/`, un dossier par écran dans `screens/` ; ce qui sert à plusieurs écrans va dans `components/`.
 - `db/init/` n'est joué qu'au premier démarrage : supprimer `db/data/` pour le rejouer.
 - Appel à `ia/` : 10 secondes au plus, sinon l'écran affiche un message de secours.
 - Toute erreur de l'API suit le schéma `Erreur` de `openapi.yaml`.
