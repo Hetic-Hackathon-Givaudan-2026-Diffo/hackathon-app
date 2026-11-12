@@ -12,6 +12,35 @@ Tout tourne dans un **dev container** : un environnement identique pour toute l'
 
 ---
 
+## Lancer la démo
+
+Pour voir l'application sans VS Code : il suffit de **Docker** (Docker Desktop, ou Docker Engine avec Compose 2.24 ou plus).
+
+```bash
+git clone git@github.com:Hetic-Hackathon-Givaudan-2026-Diffo/hackathon-app.git
+cd hackathon-app
+docker compose up
+```
+
+Ouvrez **http://localhost:5173** quand le service `web` est prêt (`docker compose ps` l'affiche `healthy`). La première fois, comptez quelques minutes : Docker télécharge les images et installe les dépendances.
+
+`docker compose up` démarre, dans l'ordre :
+
+| Service | Rôle                                                  | Adresse               |
+| ------- | ----------------------------------------------------- | --------------------- |
+| `db`    | PostgreSQL, avec le schéma et les données simulées    | interne               |
+| `ia`    | le service Data (FastAPI)                             | http://localhost:8000 |
+| `deps`  | installe les dépendances Node une fois, puis s'arrête | aucune                |
+| `api`   | l'API, une fois la base prête                         | http://localhost:3000 |
+| `web`   | le front, une fois l'API prête                        | http://localhost:5173 |
+
+- **Arrêter** : `Ctrl+C`, ou `docker compose down` depuis un autre terminal.
+- **Repartir d'une base vide** : `docker compose down`, supprimez `db/data/`, puis `docker compose up`.
+- **Configuration de l'API** : les valeurs de `api/.env.example`, remplacées par celles de `api/.env` s'il existe. Aucun fichier `.env` n'est nécessaire.
+- **Ports** : 3000, 5173 et 8000 doivent être libres. Ne lancez pas `npm run dev` dans le dev container en même temps que la démo.
+
+---
+
 ## 1. Installer les prérequis (une seule fois)
 
 | Outil                                                                 | Où le trouver         |

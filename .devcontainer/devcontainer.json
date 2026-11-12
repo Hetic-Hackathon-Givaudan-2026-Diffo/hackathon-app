@@ -1,8 +1,11 @@
 {
   "name": "Hackathon",
-  // VS Code démarre toute la stack, puis s'attache au service « dev »
+  // VS Code démarre la base et ia, puis s'attache au service « dev »
   "dockerComposeFile": ["../compose.yaml"],
   "service": "dev",
+  // Seulement la base et ia : api et web sont pour docker compose up (la démo),
+  // ici on les lance avec npm run dev, sur les mêmes ports 3000 et 5173
+  "runServices": ["dev", "db", "ia"],
   "workspaceFolder": "/workspace",
   "shutdownAction": "stopCompose",
   "remoteUser": "node",

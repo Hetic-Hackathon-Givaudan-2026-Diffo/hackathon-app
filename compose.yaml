@@ -1,9 +1,29 @@
-# La stack de développement. Versions figées : les mêmes qu'en production.
+# La stack du projet. Versions figées : les mêmes qu'en production.
+#
+# `docker compose up` lance la démo, sans VS Code : base, service ia, API et front.
+# Le dev container (profil dev) n'est démarré que par VS Code, avec la base et ia
+# (runServices dans .devcontainer/devcontainer.json).
 name: hackathon
+
+# Réglages communs aux services Node : api, web et deps.
+# Le projet n'est pas monté en entier : seuls api/, web/ et les package*.json le
+# sont. node_modules vit dans un volume nommé, installé par le seul service deps.
+# Ainsi aucun node_modules n'est créé ni partagé dans le dossier du projet, que
+# le dev container installe de son côté.
+x-node: &node
+  image: node:24-trixie-slim
+  working_dir: /workspace
+  volumes:
+    - ./package.json:/workspace/package.json:ro
+    - ./package-lock.json:/workspace/package-lock.json:ro
+    - ./api:/workspace/api
+    - ./web:/workspace/web
+    - node_modules:/workspace/node_modules
 
 services:
   # Le poste de travail : VS Code s'y attache, on y lance l'API et le front
   dev:
+    profiles: [dev]
     build:
       context: .
       dockerfile: .devcontainer/Dockerfile
@@ -19,11 +39,99 @@ services:
       ia:
         condition: service_started
 
+  # Installe les dépendances une fois, puis s'arrête. Il ne réinstalle que si
+  # package-lock.json a changé depuis la dernière installation.
+  deps:
+    <<: *node
+    environment:
+      # Pas de hooks git ici : le dépôt n'est pas monté
+      HUSKY: '0'
+    command:
+      - sh
+      - -c
+      - |
+        if cmp -s package-lock.json node_modules/.compose-package-lock.json; then
+          echo "Dépendances déjà installées"
+        else
+          npm ci && cp package-lock.json node_modules/.compose-package-lock.json
+        fi
+
+  # L'API Express, sur http://localhost:3000
+  api:
+    <<: *node
+    command: npm run dev -w api
+    # Valeurs par défaut sans secret, puis api/.env s'il existe (jamais commité)
+    env_file:
+      - path: api/.env.example
+      - path: api/.env
+        required: false
+    environment:
+      # La base de ce compose, quel que soit le contenu de api/.env
+      DATABASE_URL: postgres://app:app@db:5432/app
+    ports:
+      - '3000:3000'
+    extra_hosts:
+      # Ollama tourne sur la machine hôte (AI_BASE_URL de api/.env.example)
+      - host.docker.internal:host-gateway
+    depends_on:
+      deps:
+        condition: service_completed_successfully
+      db:
+        condition: service_healthy
+      # L'API doit tenir sans ia (message de secours) : démarré suffit
+      ia:
+        condition: service_started
+    healthcheck:
+      # /api/health interroge la base : sain veut dire API et base prêtes
+      test:
+        - CMD
+        - node
+        - -e
+        - "fetch('http://127.0.0.1:3000/api/health').then((r) => process.exit(r.ok ? 0 : 1), () => process.exit(1))"
+      interval: 5s
+      timeout: 3s
+      retries: 20
+      start_period: 10s
+
+  # Le front Vite, sur http://localhost:5173
+  web:
+    <<: *node
+    command: npm run dev -w web
+    environment:
+      API_PROXY_TARGET: http://api:3000
+      VITE_CACHE_DIR: /workspace/node_modules/.vite-web
+    ports:
+      - '5173:5173'
+    depends_on:
+      deps:
+        condition: service_completed_successfully
+      api:
+        condition: service_healthy
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - "fetch('http://127.0.0.1:5173/').then((r) => process.exit(r.ok ? 0 : 1), () => process.exit(1))"
+      interval: 5s
+      timeout: 3s
+      retries: 20
+      start_period: 5s
+
   # Le service IA (FastAPI), appelé par l'API sur http://ia:8000
   ia:
     build: ./ia
     ports:
       - '8000:8000'
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=2)"
+      interval: 5s
+      timeout: 3s
+      retries: 10
 
   db:
     image: postgres:17
@@ -41,3 +149,7 @@ services:
       interval: 5s
       timeout: 3s
       retries: 10
+
+volumes:
+  # Dépendances Node des services api, web et deps (pas celles du dev container)
+  node_modules:
