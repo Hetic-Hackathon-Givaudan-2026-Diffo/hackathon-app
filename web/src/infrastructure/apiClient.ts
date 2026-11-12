@@ -25,7 +25,12 @@ function isApiErrorBody(body: unknown): body is ApiErrorBody {
   );
 }
 
-/** GET sur une route de l'API. Rejette une `ApiError`, ou une `AbortError` si `signal` est annulé. */
+/**
+ * GET sur une route de l'API. Rejette une `ApiError`, ou une `AbortError` si
+ * `signal` est annulé. Seule une erreur conforme au schéma `Erreur` garde son
+ * message ; tout le reste (réseau, proxy, corps non JSON) affiche
+ * `API_UNREACHABLE_MESSAGE`, le détail technique allant dans la console.
+ */
 export async function getJson<T>(
   path: string,
   signal?: AbortSignal,
@@ -35,15 +40,26 @@ export async function getJson<T>(
     response = await fetch(path, { signal });
   } catch (error) {
     if (signal?.aborted) throw error;
+    console.error(`GET ${path} : erreur réseau`, error);
     throw new ApiError(API_UNREACHABLE_MESSAGE);
   }
 
-  const body: unknown = await response.json().catch(() => null);
+  const body: unknown = await response.json().catch(() => undefined);
+
   if (!response.ok) {
-    throw new ApiError(
-      isApiErrorBody(body) ? body.erreur : `Erreur ${response.status}`,
-      response.status,
+    if (isApiErrorBody(body)) {
+      throw new ApiError(body.erreur, response.status);
+    }
+    console.error(
+      `GET ${path} : réponse ${response.status} hors du schéma Erreur`,
+      body,
     );
+    throw new ApiError(API_UNREACHABLE_MESSAGE, response.status);
+  }
+
+  if (body === undefined) {
+    console.error(`GET ${path} : réponse ${response.status} sans corps JSON`);
+    throw new ApiError(API_UNREACHABLE_MESSAGE, response.status);
   }
   return body as T;
 }
