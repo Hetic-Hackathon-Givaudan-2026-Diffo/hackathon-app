@@ -319,7 +319,6 @@ function SceneTube({
         y={TUBE_TOP - 48}
         width="88"
         height={INNER_BOTTOM - TUBE_TOP + 62}
-        rx="12"
       />
 
       <g className="scene-tube-body">

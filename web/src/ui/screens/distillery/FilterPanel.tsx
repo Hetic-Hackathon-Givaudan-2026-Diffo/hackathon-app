@@ -87,19 +87,14 @@ export function FilterPanel({
 
       <div className="panel-list-head">
         <h2 className="panel-title">Classement</h2>
-        <p className="mono" aria-live="polite">
+        <p className="num" aria-live="polite">
           {loading
             ? 'Mise à jour...'
             : `${tubes.length} tube${tubes.length > 1 ? 's' : ''}`}
         </p>
       </div>
 
-      {tubes.length === 0 && !loading ? (
-        <p className="panel-empty">
-          Aucun tube pour ces filtres. Élargissez la période ou retirez un
-          thème.
-        </p>
-      ) : (
+      {tubes.length > 0 && (
         <ol className="tube-rows">
           {tubes.map((tube, index) => (
             <li key={tube.slug}>
@@ -111,13 +106,13 @@ export function FilterPanel({
                 onFocus={() => onActiveChange(tube.slug)}
                 onBlur={() => onActiveChange(null)}
               >
-                <span className="tube-row-rank mono">{tubeNumber(index)}</span>
+                <span className="tube-row-rank num">{tubeNumber(index)}</span>
                 <span className="tube-row-name">
                   <strong>{tube.name}</strong>
                   <small>{tube.themes.join(', ') || 'Sans thème'}</small>
                 </span>
                 <span className="tube-row-score">
-                  <span className="mono">{formatScore(tube.confidence)}</span>
+                  <span className="num">{formatScore(tube.confidence)}</span>
                   <span
                     className="tube-row-bar"
                     aria-hidden="true"

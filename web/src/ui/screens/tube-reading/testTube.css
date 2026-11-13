@@ -115,7 +115,7 @@
 
 .tube-scale text,
 .tube-level text {
-  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
   font-size: 12px;
   fill: var(--color-ink-muted);
 }

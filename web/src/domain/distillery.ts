@@ -50,7 +50,36 @@ export function formatScore(confidence: number): string {
   return String(Math.round(confidence * 100));
 }
 
+/** Libellé d'une période, par exemple « 6 derniers mois ». */
+export function periodLabel(period: Period): string {
+  return (
+    PERIOD_OPTIONS.find((option) => option.value === period)?.label ?? period
+  );
+}
+
+export interface BenchFacts {
+  tubes: number;
+  drops: number;
+  durable: number;
+  buzz: number;
+}
+
+/** Faits de l'intitulé de paillasse, tirés de la réponse de GET /api/tubes. */
+export function benchFacts(tubes: TubeSummary[]): BenchFacts {
+  return {
+    tubes: tubes.length,
+    drops: tubes.reduce((sum, tube) => sum + tube.dropCounts.total, 0),
+    durable: tubes.filter((tube) => tube.verdict === 'durable').length,
+    buzz: tubes.filter((tube) => tube.verdict === 'buzz').length,
+  };
+}
+
 /** Numéro d'un tube sur la paillasse : 01, 02... */
 export function tubeNumber(index: number): string {
   return String(index + 1).padStart(2, '0');
+}
+
+/** Numéro de lot d'un tube, d'après son rang dans la liste sans filtre : « Lot 02 ». */
+export function lotLabel(index: number): string {
+  return `Lot ${tubeNumber(index)}`;
 }

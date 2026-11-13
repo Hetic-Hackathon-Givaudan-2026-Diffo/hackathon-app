@@ -5,17 +5,15 @@ import {
 } from '../../../application/useDistillery';
 import { useHealth } from '../../../application/useHealth';
 import {
-  formatScore,
-  tubeNumber,
-  type TubeSummary,
+  benchFacts,
+  periodLabel,
+  type TubeList,
 } from '../../../domain/distillery';
-import { formatVerdictSplit, KIND_LABELS } from '../../../domain/tube';
 import { ApiStatus } from './ApiStatus';
 import { AppShell } from '../../app/AppShell';
 import { DistilleryScene } from './DistilleryScene';
 import { FilterPanel } from './FilterPanel';
 import { SignalJourney } from './SignalJourney';
-import { VerdictBadge } from '../../components/VerdictBadge';
 import './distillery.css';
 
 /** Accueil : la Distillerie. */
@@ -24,7 +22,7 @@ export function Distillery() {
   const { filters, setPeriod, toggleTheme, clearThemes } =
     useDistilleryFilters();
   const tubeList = useTubeList(filters);
-  // Tube survolé : lié entre le classement, la scène et les cartes
+  // Tube survolé : lié entre le classement et la scène
   const [activeSlug, setActiveSlug] = useState<string | null>(null);
 
   const list = tubeList.state === 'ok' ? tubeList.list : tubeList.previous;
@@ -37,24 +35,13 @@ export function Distillery() {
   } else if (loading && !list) {
     sceneMessage = 'Mise en place de la paillasse...';
   } else if (!loading && tubes.length === 0) {
-    sceneMessage =
-      'Aucun tube pour ces filtres. Élargissez la période ou retirez un thème.';
+    sceneMessage = 'Aucun tube pour ces filtres.';
   }
 
   return (
     <AppShell footer={<ApiStatus health={health} />}>
       <main className="distillery">
-        <header className="distillery-intro">
-          <p className="eyebrow">La Distillerie</p>
-          <h1>
-            Chaque signal est une goutte. <em>Le tube dit s'il dure.</em>
-          </h1>
-          <p className="distillery-lead">
-            TrendLab recueille les signaux, les classe durables ou buzz, et
-            distille chaque tendance jusqu'à son score. Cliquez sur un tube pour
-            lire son verdict.
-          </p>
-        </header>
+        <BenchLabel list={list} themes={filters.themes} />
 
         <div className="distillery-layout">
           <FilterPanel
@@ -77,25 +64,6 @@ export function Distillery() {
               message={sceneMessage}
             />
             <SignalJourney tubes={tubes} />
-            {tubes.length > 0 && (
-              <section aria-labelledby="cards-title">
-                <h2 id="cards-title" className="eyebrow">
-                  Les tubes sur la paillasse
-                </h2>
-                <ol className="tube-cards">
-                  {tubes.map((tube, index) => (
-                    <li key={tube.slug}>
-                      <TubeCard
-                        tube={tube}
-                        index={index}
-                        active={activeSlug === tube.slug}
-                        onActiveChange={setActiveSlug}
-                      />
-                    </li>
-                  ))}
-                </ol>
-              </section>
-            )}
           </div>
         </div>
       </main>
@@ -103,37 +71,49 @@ export function Distillery() {
   );
 }
 
-function TubeCard({
-  tube,
-  index,
-  active,
-  onActiveChange,
+/** Intitulé de paillasse : le nom de la paillasse et ce qu'elle porte, d'après l'API. */
+function BenchLabel({
+  list,
+  themes,
 }: {
-  tube: TubeSummary;
-  index: number;
-  active: boolean;
-  onActiveChange: (slug: string | null) => void;
+  list: TubeList | null;
+  themes: string[];
 }) {
+  const facts = list ? benchFacts(list.tubes) : null;
+
   return (
-    <a
-      className={`tube-card${active ? ' is-active' : ''}`}
-      href={`/tubes/${tube.slug}`}
-      onMouseEnter={() => onActiveChange(tube.slug)}
-      onMouseLeave={() => onActiveChange(null)}
-      onFocus={() => onActiveChange(tube.slug)}
-      onBlur={() => onActiveChange(null)}
-    >
-      <span className="tube-card-number mono">{tubeNumber(index)}</span>
-      <span className="tube-card-kind">{KIND_LABELS[tube.kind]}</span>
-      <strong className="tube-card-name">{tube.name}</strong>
-      <span className="tube-card-verdict">
-        <VerdictBadge verdict={tube.verdict} />
-        <span className="mono">Score {formatScore(tube.confidence)}</span>
-      </span>
-      <span className="tube-card-split mono">
-        {formatVerdictSplit(tube.dropCounts)}
-      </span>
-      <span className="tube-card-cta">Lire le tube</span>
-    </a>
+    <header className="bench-label">
+      <h1>La Distillerie</h1>
+      {facts && list && (
+        <dl className="bench-facts">
+          <div>
+            <dt>Tubes</dt>
+            <dd className="num">{facts.tubes}</dd>
+          </div>
+          <div>
+            <dt>Gouttes</dt>
+            <dd className="num">{facts.drops}</dd>
+          </div>
+          <div>
+            <dt>Durables</dt>
+            <dd className="num">{facts.durable}</dd>
+          </div>
+          <div>
+            <dt>Buzz</dt>
+            <dd className="num">{facts.buzz}</dd>
+          </div>
+          <div>
+            <dt>Période</dt>
+            <dd>{periodLabel(list.period)}</dd>
+          </div>
+          {themes.length > 0 && (
+            <div>
+              <dt>Thèmes</dt>
+              <dd>{themes.join(', ')}</dd>
+            </div>
+          )}
+        </dl>
+      )}
+    </header>
   );
 }

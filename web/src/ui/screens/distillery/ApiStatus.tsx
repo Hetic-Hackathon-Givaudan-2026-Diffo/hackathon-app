@@ -3,10 +3,10 @@ import type { Health } from '../../../domain/health';
 export function ApiStatus({ health }: { health: Health }) {
   switch (health.state) {
     case 'loading':
-      return <p>Connexion à l'API...</p>;
+      return <p>Mise en chauffe de l'alambic...</p>;
     case 'ok':
-      return <p>API : {health.status}</p>;
+      return <p>Alambic en marche</p>;
     case 'error':
-      return <p>API indisponible : {health.message}</p>;
+      return <p>Alambic à l'arrêt : {health.message}</p>;
   }
 }

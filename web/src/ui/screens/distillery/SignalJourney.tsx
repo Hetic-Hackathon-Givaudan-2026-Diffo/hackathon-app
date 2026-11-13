@@ -51,12 +51,12 @@ export function SignalJourney({ tubes }: { tubes: TubeSummary[] }) {
 
       <ol className="journey-steps">
         <li>
-          <span className="journey-number mono">01</span>
+          <span className="journey-number num">01</span>
           <h3>Veille</h3>
           {drop ? (
             <p key={`a${step}`} className="journey-live">
               {drop.text}
-              <small className="mono">
+              <small className="num">
                 {drop.place} · {drop.sourceType} · {formatDropDate(drop.date)}
               </small>
             </p>
@@ -65,7 +65,7 @@ export function SignalJourney({ tubes }: { tubes: TubeSummary[] }) {
           )}
         </li>
         <li>
-          <span className="journey-number mono">02</span>
+          <span className="journey-number num">02</span>
           <h3>Décryptage</h3>
           {drop ? (
             <p key={`b${step}`} className="journey-live">
@@ -77,12 +77,12 @@ export function SignalJourney({ tubes }: { tubes: TubeSummary[] }) {
           )}
         </li>
         <li>
-          <span className="journey-number mono">03</span>
+          <span className="journey-number num">03</span>
           <h3>Distillation</h3>
           {tube ? (
             <p key={`c${step}`} className="journey-live">
               {tube.name} : <strong>{VERDICT_LABELS[tube.verdict]}</strong>
-              <small className="mono">
+              <small className="num">
                 Score {formatScore(tube.confidence)} sur 100
               </small>
             </p>
@@ -91,7 +91,7 @@ export function SignalJourney({ tubes }: { tubes: TubeSummary[] }) {
           )}
         </li>
         <li>
-          <span className="journey-number mono">04</span>
+          <span className="journey-number num">04</span>
           <h3>Lecture</h3>
           <p>Ouvrez un tube : ses gouttes, son verdict et la note de l'IA.</p>
         </li>

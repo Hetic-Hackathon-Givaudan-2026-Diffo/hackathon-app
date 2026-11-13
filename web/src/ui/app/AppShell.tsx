@@ -20,7 +20,7 @@ export function AppShell({
             <span className="brand-name">
               Trend<em>Lab</em>
             </span>
-            <span className="brand-tagline">Laboratoire de distillation</span>
+            <span className="brand-tagline">Distillerie de tendances</span>
           </a>
           <div className="app-header-tools">
             <SimulatedDataNotice />
@@ -40,7 +40,7 @@ export function AppShell({
       </header>
       {children}
       <footer className="app-footer">
-        <p>TrendLab · prototype de hackathon · données simulées</p>
+        <p>TrendLab · cahier de laboratoire · gouttes simulées</p>
         {footer}
       </footer>
     </>
