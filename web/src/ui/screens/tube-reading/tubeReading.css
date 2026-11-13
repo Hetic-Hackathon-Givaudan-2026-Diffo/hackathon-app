@@ -4,7 +4,7 @@
   color: var(--color-ink-muted);
 }
 
-.breadcrumb .mono {
+.breadcrumb .num {
   font-size: 0.8rem;
 }
 
@@ -17,11 +17,10 @@
 
 .tube-title h1 {
   margin: 0.4rem 0 0;
-  font-family: var(--font-display);
   font-size: clamp(2.75rem, 7.5vw, 6.25rem);
-  font-weight: 500;
+  font-weight: 600;
   line-height: 0.95;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.01em;
   text-wrap: balance;
 }
 
@@ -34,8 +33,10 @@
 }
 
 .stage-tube {
+  /* Le tube reste à gauche pendant qu'on fait défiler la frise */
   position: sticky;
   top: 5.5rem;
+  align-self: start;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -46,23 +47,22 @@
 .stage-tube .test-tube {
   width: auto;
   max-width: 100%;
-  height: min(calc(100vh - 13rem), 38rem);
+  /* Tube, légende et en-tête tiennent dans la fenêtre : le tube ne déborde jamais */
+  height: min(calc(100dvh - 14rem), 38rem);
   min-height: 22rem;
 }
 
 .stage-status {
   align-self: center;
-  font-family: var(--font-mono);
   color: var(--color-ink-muted);
 }
 
 .stage-message h1 {
   margin: 0.5rem 0 1rem;
-  font-family: var(--font-display);
   font-size: clamp(2.25rem, 5vw, 3.75rem);
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 .stage-message p:not(.eyebrow) {
@@ -92,7 +92,7 @@
   display: inline-block;
   width: 0.9rem;
   height: 0.9rem;
-  border-radius: 2px;
+  border-radius: 0;
   margin-left: 0.4rem;
 }
 
@@ -108,12 +108,6 @@
   );
 }
 
-.legend-note {
-  margin-left: 0.6rem;
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-}
-
 .stage-story {
   display: flex;
   flex-direction: column;
@@ -124,12 +118,10 @@
 /* Le verdict */
 .verdict-word {
   margin: 0.25rem 0 0;
-  font-family: var(--font-display);
   font-size: clamp(4rem, 11vw, 8.5rem);
-  font-style: italic;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 0.9;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.01em;
 }
 
 .verdict-word-durable {
@@ -143,7 +135,6 @@
 .verdict-tagline {
   margin: 1rem 0 1.75rem;
   max-width: 30rem;
-  font-family: var(--font-display);
   font-size: 1.3rem;
   line-height: 1.35;
 }
@@ -156,45 +147,16 @@
 }
 
 .verdict-figures dt {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  font-size: 0.8rem;
   color: var(--color-ink-muted);
 }
 
 .verdict-figures dd {
+  font-variant-numeric: tabular-nums;
   margin: 0.15rem 0 0;
   font-size: clamp(1.4rem, 2.6vw, 1.9rem);
-  font-weight: 500;
-  letter-spacing: -0.02em;
-}
-
-.confidence-meter {
-  position: relative;
-  height: 0.35rem;
-  margin-top: 1.25rem;
-  max-width: 30rem;
-  border-radius: 999px;
-  background: var(--color-rule);
-  overflow: hidden;
-}
-
-.confidence-meter::after {
-  content: '';
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: calc(var(--confidence) * 100%);
-  border-radius: inherit;
-  background: var(--color-ink);
-  transform-origin: left;
-  animation: meter-grow 1.2s cubic-bezier(0.2, 0.7, 0.3, 1) 0.3s backwards;
-}
-
-@keyframes meter-grow {
-  from {
-    transform: scaleX(0);
-  }
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 .section-heading {
@@ -210,9 +172,8 @@
 
 .section-heading h2 {
   margin: 0;
-  font-family: var(--font-display);
   font-size: 1.75rem;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: -0.01em;
 }
 
@@ -243,16 +204,17 @@
 .timeline-item {
   position: relative;
   padding: 1rem 1rem 1rem 2.75rem;
-  border-radius: 0.75rem;
-  transition:
-    background-color 160ms ease,
-    box-shadow 160ms ease;
+  border-top: 1px solid var(--color-rule);
+  transition: background-color 160ms ease;
+}
+
+.timeline-item:first-child {
+  border-top: 0;
 }
 
 .timeline-item:hover,
 .timeline-item.is-active {
   background: var(--color-surface);
-  box-shadow: var(--shadow-soft);
 }
 
 .timeline-node {
@@ -274,11 +236,6 @@
 
 .timeline-item.is-active .timeline-node {
   transform: scale(1.35);
-  box-shadow: 0 0 0 4px var(--color-accent-soft);
-}
-
-.timeline-item-buzz.is-active .timeline-node {
-  box-shadow: 0 0 0 4px var(--color-amber-soft);
 }
 
 .timeline-meta {
@@ -289,6 +246,7 @@
 }
 
 .timeline-meta time {
+  font-variant-numeric: tabular-nums;
   font-size: 0.85rem;
   font-weight: 600;
 }
@@ -304,15 +262,12 @@
 
 .timeline-source {
   margin: 0.35rem 0 0;
-  font-size: 0.75rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-size: 0.8rem;
   color: var(--color-ink-muted);
 }
 
 .timeline-text {
   margin: 0.3rem 0 0.5rem;
-  font-family: var(--font-display);
   font-size: 1.18rem;
   line-height: 1.4;
 }
@@ -325,7 +280,7 @@
   color: var(--color-ink-muted);
 }
 
-.timeline-reasons .mono {
+.timeline-reasons .num {
   margin-right: 0.4rem;
   font-size: 0.68rem;
   letter-spacing: 0.1em;
@@ -333,85 +288,57 @@
   color: var(--color-ink);
 }
 
-/* Ce que lit l'IA : une note de laboratoire, sur papier ligné */
+/* Ce que lit l'IA : une fiche d'analyse, fond uni */
 .lab-note {
-  position: relative;
-  padding: 1.5rem clamp(1.25rem, 3vw, 2rem) 1.75rem clamp(2.75rem, 5vw, 3.5rem);
   border: 1px solid var(--color-rule);
-  border-radius: 0.35rem;
-  background:
-    repeating-linear-gradient(
-      to bottom,
-      transparent 0 1.85rem,
-      var(--note-line) 1.85rem calc(1.85rem + 1px)
-    ),
-    var(--note-paper);
-  box-shadow: var(--shadow-soft);
-}
-
-/* Trait de marge du cahier */
-.lab-note::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: calc(clamp(2.75rem, 5vw, 3.5rem) - 0.9rem);
-  width: 1px;
-  background: var(--note-margin);
+  border-top: 2px solid var(--color-ink);
+  background: var(--note-paper);
 }
 
 .lab-note-head {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
-}
-
-.lab-note-stamp {
   margin: 0;
-  padding: 0.2rem 0.6rem;
-  border: 1.5px solid var(--color-accent);
-  border-radius: 0.2rem;
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
+  padding: 0.6rem clamp(1rem, 3vw, 1.5rem);
+  border-bottom: 1px solid var(--color-rule);
+  font-size: 0.85rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--color-accent);
-  transform: rotate(-2.5deg);
 }
 
-.lab-note h2 {
-  margin: 0.75rem 0 0.5rem;
-  font-family: var(--font-display);
-  font-size: 1.9rem;
-  font-style: italic;
-  font-weight: 500;
+.lab-note-fields {
+  margin: 0;
 }
 
-.lab-note h3 {
-  margin: 1.25rem 0 0.25rem;
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+.lab-note-fields > div {
+  display: grid;
+  grid-template-columns: minmax(7rem, 11rem) minmax(0, 1fr);
+  gap: 0.25rem 1.25rem;
+  padding: 0.85rem clamp(1rem, 3vw, 1.5rem);
+  border-top: 1px solid var(--color-rule);
+}
+
+.lab-note-fields > div:first-child {
+  border-top: 0;
+}
+
+.lab-note-fields dt {
+  font-size: 0.8rem;
   color: var(--color-ink-muted);
 }
 
-.lab-note p {
+.lab-note-fields dd {
   margin: 0;
-  line-height: 1.85rem;
+  line-height: 1.6;
 }
 
 .lab-note-summary {
-  font-family: var(--font-display);
   font-size: 1.2rem;
 }
 
 /* Portable et téléphone */
 @media (max-width: 54rem) {
+  .lab-note-fields > div {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .stage {
     grid-template-columns: minmax(0, 1fr);
   }

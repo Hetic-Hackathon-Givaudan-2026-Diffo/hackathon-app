@@ -4,37 +4,48 @@
   padding: 0 clamp(1rem, 3vw, 2.5rem) 3rem;
 }
 
-.distillery-intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
-  align-items: end;
-  gap: 0.5rem 3rem;
-  padding-block: clamp(1.5rem, 3vw, 2.25rem) clamp(1.25rem, 2.5vw, 2rem);
+/* Intitulé de paillasse : un nom, puis les faits du jour, sur un filet */
+.bench-label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem 2.5rem;
+  margin-block: clamp(1.25rem, 2.5vw, 2rem);
+  padding-block: 0.75rem;
+  border-top: 2px solid var(--color-ink);
+  border-bottom: 1px solid var(--color-rule-strong);
 }
 
-.distillery-intro .eyebrow {
-  grid-column: 1 / -1;
-}
-
-.distillery-intro h1 {
+.bench-label h1 {
   margin: 0;
-  font-family: var(--font-display);
-  font-size: clamp(2rem, 4.2vw, 3.6rem);
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: -0.03em;
-  text-wrap: balance;
+  font-size: clamp(1.75rem, 3vw, 2.4rem);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
 }
 
-.distillery-intro h1 em {
-  font-weight: 400;
-  color: var(--color-accent);
-}
-
-.distillery-lead {
+.bench-facts {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
-  max-width: 34rem;
+}
+
+.bench-facts > div {
+  padding: 0 1rem;
+  border-left: 1px solid var(--color-rule);
+}
+
+.bench-facts dt {
+  font-size: 0.75rem;
   color: var(--color-ink-muted);
+}
+
+.bench-facts dd {
+  font-variant-numeric: tabular-nums;
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
 }
 
 .distillery-layout {
@@ -52,16 +63,15 @@
   overflow-y: auto;
   padding: 1.25rem 1.1rem 1.5rem;
   border: 1px solid var(--color-rule);
-  border-radius: 1.25rem;
+  border-top: 2px solid var(--color-ink);
   background: var(--color-surface);
   scrollbar-width: thin;
 }
 
 .panel-title {
   margin: 0;
-  font-family: var(--font-display);
   font-size: 1.35rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .filter-group {
@@ -73,10 +83,7 @@
 .filter-group legend {
   margin-bottom: 0.45rem;
   padding: 0;
-  font-family: var(--font-mono);
   font-size: 0.7rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
   color: var(--color-ink-muted);
 }
 
@@ -94,7 +101,6 @@
   gap: 0.4rem;
   padding: 0.3rem 0.7rem;
   border: 1px solid var(--color-rule-strong);
-  border-radius: 999px;
   background: var(--color-paper);
   color: var(--color-ink);
   font: inherit;
@@ -183,7 +189,6 @@ label.chip::before {
   gap: 0.5rem;
   padding: 0.55rem 0.5rem;
   border: 1px solid transparent;
-  border-radius: 0.75rem;
   color: var(--color-ink);
   text-decoration: none;
 }
@@ -228,7 +233,7 @@ label.chip::before {
   gap: 0.25rem;
 }
 
-.tube-row-score .mono {
+.tube-row-score .num {
   font-size: 0.95rem;
   font-weight: 600;
 }
@@ -238,7 +243,6 @@ label.chip::before {
   align-self: stretch;
   height: 3px;
   max-width: 100%;
-  border-radius: 2px;
   background: var(--color-ink);
 }
 
@@ -247,7 +251,7 @@ label.chip::before {
   padding: 0 0.4rem;
 }
 
-/* Paillasse : scène, parcours, cartes */
+/* Paillasse : scène et parcours */
 .bench {
   display: flex;
   flex-direction: column;
@@ -258,7 +262,7 @@ label.chip::before {
 .journey {
   padding: 1.1rem 1.25rem 1.25rem;
   border: 1px solid var(--color-rule);
-  border-radius: 1.25rem;
+  border-top: 2px solid var(--color-ink);
   background: var(--color-surface);
 }
 
@@ -278,7 +282,6 @@ label.chip::before {
 .journey-controls button {
   padding: 0.2rem 0.65rem;
   border: 1px solid var(--color-rule-strong);
-  border-radius: 999px;
   background: var(--color-paper);
   color: var(--color-ink);
   font: inherit;
@@ -313,9 +316,8 @@ label.chip::before {
 
 .journey-steps h3 {
   margin: 0.1rem 0 0.35rem;
-  font-family: var(--font-display);
   font-size: 1.3rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .journey-steps p {
@@ -342,95 +344,8 @@ label.chip::before {
   }
 }
 
-.bench > section > .eyebrow {
-  margin-bottom: 0.75rem;
-}
-
-.tube-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr));
-  gap: 1rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.tube-card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  height: 100%;
-  padding: 1rem 1.1rem 1rem;
-  border: 1px solid var(--color-rule);
-  border-radius: 1rem;
-  background: var(--color-surface);
-  color: var(--color-ink);
-  text-decoration: none;
-  transition:
-    transform 200ms ease,
-    border-color 200ms ease;
-}
-
-.tube-card:hover,
-.tube-card.is-active {
-  transform: translateY(-3px);
-  border-color: var(--color-accent);
-  box-shadow: var(--shadow-soft);
-}
-
-.tube-card-number {
-  font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 1;
-  color: var(--color-accent);
-}
-
-.tube-card-kind {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--color-ink-muted);
-}
-
-.tube-card-name {
-  font-family: var(--font-display);
-  font-size: 1.35rem;
-  font-weight: 500;
-  line-height: 1.15;
-}
-
-.tube-card-verdict {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5rem;
-  margin-top: 0.2rem;
-  font-size: 0.85rem;
-}
-
-.tube-card-split {
-  font-size: 0.75rem;
-  color: var(--color-ink-muted);
-}
-
-.tube-card-cta {
-  margin-top: auto;
-  padding-top: 0.5rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--color-accent);
-  text-decoration: underline;
-  text-underline-offset: 0.25em;
-}
-
 /* Portable étroit, tablette, téléphone */
 @media (max-width: 64rem) {
-  .distillery-intro {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
   .distillery-layout {
     grid-template-columns: minmax(0, 1fr);
   }

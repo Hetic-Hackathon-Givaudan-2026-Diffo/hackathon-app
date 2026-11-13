@@ -1,9 +1,9 @@
-import { useMemo, useState, type CSSProperties, type ReactNode } from 'react';
-import { useTube } from '../../../application/useTube';
+import { useMemo, useState, type ReactNode } from 'react';
+import { useLotIndex, useTube } from '../../../application/useTube';
+import { lotLabel } from '../../../domain/distillery';
 import {
   chronologicalDrops,
   describeTube,
-  formatConfidence,
   formatDropCounts,
   formatDropDate,
   formatVerdictSplit,
@@ -21,14 +21,24 @@ import './tubeReading.css';
 /** Écran 3 de la maquette : « Lecture du tube ». */
 export function TubeReading({ slug }: { slug: string }) {
   const tube = useTube(slug);
+  const lotIndex = useLotIndex(slug);
+  const lot = lotIndex !== null ? lotLabel(lotIndex) : null;
 
   return (
     <AppShell>
       <main className="page tube-page">
         <nav className="breadcrumb" aria-label="Fil d'Ariane">
           <a href="/">Tous les tubes</a>
-          <span aria-hidden="true"> / </span>
-          <span className="mono">{slug}</span>
+          {tube.state === 'ok' && (
+            <>
+              <span aria-hidden="true"> / </span>
+              <span aria-current="page">
+                {lot && <span className="lot-ref">{lot}</span>}
+                {lot && ' · '}
+                {tube.tube.name}
+              </span>
+            </>
+          )}
         </nav>
 
         {tube.state === 'loading' && (
@@ -43,8 +53,7 @@ export function TubeReading({ slug }: { slug: string }) {
         )}
         {tube.state === 'notFound' && (
           <StageMessage title="Ce tube n'existe pas">
-            Aucun tube ne correspond à « {slug} ». Vérifiez l'adresse, ou
-            revenez à la liste des tubes.
+            Aucun tube ne correspond à cette adresse.
           </StageMessage>
         )}
         {tube.state === 'error' && (
@@ -52,7 +61,7 @@ export function TubeReading({ slug }: { slug: string }) {
             {tube.message}
           </StageMessage>
         )}
-        {tube.state === 'ok' && <TubeDetails tube={tube.tube} />}
+        {tube.state === 'ok' && <TubeDetails tube={tube.tube} lot={lot} />}
       </main>
     </AppShell>
   );
@@ -80,17 +89,23 @@ function StageMessage({
   );
 }
 
-function TubeDetails({ tube }: { tube: Tube }) {
+function TubeDetails({ tube, lot }: { tube: Tube; lot: string | null }) {
   // Couche du tube et goutte de la frise, liées au survol dans les deux sens
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   // Index 0 : la goutte la plus ancienne, au fond du tube
   const drops = useMemo(() => chronologicalDrops(tube.drops), [tube.drops]);
   const activeDrop = activeIndex !== null ? drops[activeIndex] : null;
+  // Date de la fiche : celle de la goutte la plus récente
+  const latestDate = drops.length > 0 ? drops[drops.length - 1].date : null;
 
   return (
     <>
       <header className="tube-title">
-        <p className="eyebrow">{KIND_LABELS[tube.kind]} · Lecture du tube</p>
+        <p className="eyebrow">
+          {lot && <span className="lot-ref">{lot}</span>}
+          {lot && ' · '}
+          {KIND_LABELS[tube.kind]}
+        </p>
         <h1>{tube.name}</h1>
       </header>
 
@@ -103,20 +118,17 @@ function TubeDetails({ tube }: { tube: Tube }) {
             activeIndex={activeIndex}
             onActiveChange={setActiveIndex}
           />
-          <figcaption className="tube-caption mono">
-            {activeDrop && activeIndex !== null ? (
+          <figcaption className="tube-caption num">
+            {activeDrop && activeIndex !== null && (
               <>
                 Couche {activeIndex + 1} · {formatDropDate(activeDrop.date)} ·{' '}
                 {VERDICT_LABELS[activeDrop.verdict]}
               </>
-            ) : (
-              <>Survolez une couche pour retrouver sa goutte</>
             )}
           </figcaption>
           <p className="tube-legend">
             <span className="legend-swatch legend-swatch-durable" /> Durable
             <span className="legend-swatch legend-swatch-buzz" /> Buzz
-            <span className="legend-note">niveau = confiance</span>
           </p>
         </figure>
 
@@ -131,27 +143,16 @@ function TubeDetails({ tube }: { tube: Tube }) {
             <p className="verdict-tagline">{VERDICT_TAGLINES[tube.verdict]}</p>
             <dl className="verdict-figures">
               <div>
-                <dt>Confiance</dt>
-                <dd className="mono">{formatConfidence(tube.confidence)}</dd>
-              </div>
-              <div>
                 <dt>Répartition</dt>
-                <dd className="mono">{formatVerdictSplit(tube.dropCounts)}</dd>
+                <dd className="num">{formatVerdictSplit(tube.dropCounts)}</dd>
               </div>
             </dl>
-            <div
-              className="confidence-meter"
-              role="presentation"
-              style={{ '--confidence': tube.confidence } as CSSProperties}
-            />
           </section>
 
           <section aria-labelledby="drops-title">
             <div className="section-heading">
               <h2 id="drops-title">Les gouttes</h2>
-              <p className="mono">
-                {formatDropCounts(tube.dropCounts)} · la plus récente en haut
-              </p>
+              <p className="num">{formatDropCounts(tube.dropCounts)}</p>
             </div>
             {/* Même sens que le tube : la couche du dessus est la plus récente */}
             <ol className="timeline">
@@ -171,14 +172,39 @@ function TubeDetails({ tube }: { tube: Tube }) {
           </section>
 
           <section className="lab-note" aria-labelledby="ai-reading-title">
-            <div className="lab-note-head">
-              <p className="eyebrow">Note de laboratoire</p>
-              <p className="lab-note-stamp">Rédigé par une IA</p>
-            </div>
-            <h2 id="ai-reading-title">Ce que lit l'IA</h2>
-            <p className="lab-note-summary">{tube.aiReading.summary}</p>
-            <h3>Ce qui changerait la lecture</h3>
-            <p>{tube.aiReading.whatWouldChange}</p>
+            <h2 id="ai-reading-title" className="lab-note-head num">
+              Fiche d'analyse
+              {lot && (
+                <>
+                  {' · '}
+                  <span className="lot-ref">{lot}</span>
+                </>
+              )}
+              {' · '}
+              {tube.name}
+              {latestDate && (
+                <>
+                  {' · '}
+                  <time dateTime={latestDate}>
+                    {formatDropDate(latestDate)}
+                  </time>
+                </>
+              )}
+            </h2>
+            <dl className="lab-note-fields">
+              <div>
+                <dt>Rédacteur</dt>
+                <dd>Rédigé par une IA</dd>
+              </div>
+              <div>
+                <dt>Lecture</dt>
+                <dd className="lab-note-summary">{tube.aiReading.summary}</dd>
+              </div>
+              <div>
+                <dt>Ce qui changerait la lecture</dt>
+                <dd>{tube.aiReading.whatWouldChange}</dd>
+              </div>
+            </dl>
           </section>
         </div>
       </div>
@@ -208,10 +234,10 @@ function DropItem({
     >
       <span className="timeline-node" aria-hidden="true" />
       <div className="timeline-meta">
-        <time className="mono" dateTime={drop.date}>
+        <time className="num" dateTime={drop.date}>
           {formatDropDate(drop.date)}
         </time>
-        <span className="timeline-number mono">
+        <span className="timeline-number num">
           Goutte {String(index + 1).padStart(2, '0')}
         </span>
         <VerdictBadge verdict={drop.verdict} />
@@ -223,7 +249,7 @@ function DropItem({
       <ul className="timeline-reasons">
         {drop.reasons.map((reason) => (
           <li key={reason}>
-            <span className="mono">Raison</span> {reason}
+            <span className="num">Raison</span> {reason}
           </li>
         ))}
       </ul>
