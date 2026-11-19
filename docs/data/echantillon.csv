@@ -1,0 +1,1081 @@
+tendance,terme,source,zone,mois,mesure,valeur,unite,fichier_brut,date_extraction
+ancrage,cheesecake,google_trends,MONDE,2017-01,interet_recherche,55.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2017-02,interet_recherche,61.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2017-03,interet_recherche,57.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2017-04,interet_recherche,61.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2017-05,interet_recherche,56.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2017-06,interet_recherche,56.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2017-07,interet_recherche,59.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2017-08,interet_recherche,57.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2017-09,interet_recherche,53.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2017-10,interet_recherche,56.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2017-11,interet_recherche,72.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2017-12,interet_recherche,85.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2018-01,interet_recherche,55.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2018-02,interet_recherche,60.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2018-03,interet_recherche,66.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2018-04,interet_recherche,55.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2018-05,interet_recherche,57.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2018-06,interet_recherche,58.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2018-07,interet_recherche,57.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2018-08,interet_recherche,53.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2018-09,interet_recherche,51.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2018-10,interet_recherche,52.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2018-11,interet_recherche,67.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2018-12,interet_recherche,84.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2019-01,interet_recherche,54.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2019-02,interet_recherche,59.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2019-03,interet_recherche,58.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2019-04,interet_recherche,60.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2019-05,interet_recherche,57.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2019-06,interet_recherche,55.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2019-07,interet_recherche,60.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2019-08,interet_recherche,60.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2019-09,interet_recherche,50.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2019-10,interet_recherche,53.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2019-11,interet_recherche,74.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2019-12,interet_recherche,81.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2020-01,interet_recherche,58.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2020-02,interet_recherche,62.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2020-03,interet_recherche,60.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2020-04,interet_recherche,99.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2020-05,interet_recherche,100.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2020-06,interet_recherche,84.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2020-07,interet_recherche,77.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2020-08,interet_recherche,68.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2020-09,interet_recherche,65.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2020-10,interet_recherche,65.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2020-11,interet_recherche,74.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2020-12,interet_recherche,87.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2021-01,interet_recherche,65.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2021-02,interet_recherche,74.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2021-03,interet_recherche,68.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2021-04,interet_recherche,72.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2021-05,interet_recherche,73.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2021-06,interet_recherche,60.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2021-07,interet_recherche,63.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2021-08,interet_recherche,57.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2021-09,interet_recherche,52.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2021-10,interet_recherche,57.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2021-11,interet_recherche,65.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2021-12,interet_recherche,80.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2022-01,interet_recherche,57.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2022-02,interet_recherche,58.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2022-03,interet_recherche,55.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2022-04,interet_recherche,59.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2022-05,interet_recherche,54.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2022-06,interet_recherche,54.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2022-07,interet_recherche,55.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2022-08,interet_recherche,48.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2022-09,interet_recherche,48.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2022-10,interet_recherche,48.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2022-11,interet_recherche,57.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2022-12,interet_recherche,70.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2023-01,interet_recherche,50.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2023-02,interet_recherche,55.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2023-03,interet_recherche,50.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2023-04,interet_recherche,52.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2023-05,interet_recherche,49.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2023-06,interet_recherche,51.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2023-07,interet_recherche,50.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2023-08,interet_recherche,51.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2023-09,interet_recherche,47.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2023-10,interet_recherche,52.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2023-11,interet_recherche,59.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2023-12,interet_recherche,70.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2024-01,interet_recherche,49.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2024-02,interet_recherche,54.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2024-03,interet_recherche,63.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2024-04,interet_recherche,51.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2024-05,interet_recherche,52.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2024-06,interet_recherche,53.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2024-07,interet_recherche,54.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2024-08,interet_recherche,50.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2024-09,interet_recherche,46.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2024-10,interet_recherche,50.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2024-11,interet_recherche,63.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2024-12,interet_recherche,75.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2025-01,interet_recherche,51.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2025-02,interet_recherche,56.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2025-03,interet_recherche,54.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2025-04,interet_recherche,57.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2025-05,interet_recherche,56.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2025-06,interet_recherche,50.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2025-07,interet_recherche,54.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2025-08,interet_recherche,55.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2025-09,interet_recherche,47.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2025-10,interet_recherche,52.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2025-11,interet_recherche,67.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+ancrage,cheesecake,google_trends,MONDE,2025-12,interet_recherche,76.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,gdelt,MONDE,2017-01,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-02,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-03,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-04,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-05,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-06,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-07,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-08,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-09,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-10,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-11,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-12,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-01,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-02,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-03,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-04,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-05,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-06,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-07,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-08,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-09,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-10,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-11,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-12,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-01,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-02,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-03,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-04,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-05,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-06,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-07,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-08,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-09,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-10,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-11,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-12,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-01,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-02,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-03,articles,92,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-04,articles,1060,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-05,articles,348,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-06,articles,108,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-07,articles,81,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-08,articles,95,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-09,articles,56,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-10,articles,159,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-11,articles,30,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-12,articles,224,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-01,articles,57,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-02,articles,54,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-03,articles,54,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-04,articles,59,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-05,articles,66,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-06,articles,39,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-07,articles,26,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-08,articles,17,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-09,articles,26,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-10,articles,39,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-11,articles,19,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-12,articles,24,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-01,articles,31,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-02,articles,59,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-03,articles,15,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-04,articles,24,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-05,articles,36,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-06,articles,12,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-07,articles,19,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-08,articles,22,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-09,articles,9,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-10,articles,11,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-11,articles,11,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-12,articles,9,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-01,articles,7,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-02,articles,4,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-03,articles,7,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-04,articles,7,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-05,articles,3,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-06,articles,6,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-07,articles,3,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-08,articles,5,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-09,articles,9,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-10,articles,2,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-11,articles,6,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-12,articles,4,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-01,articles,9,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-02,articles,2,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-03,articles,11,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-04,articles,2,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-05,articles,6,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-06,articles,8,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-07,articles,6,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-08,articles,4,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-09,articles,5,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-10,articles,5,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-11,articles,4,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-12,articles,5,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-01,articles,9,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-02,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-03,articles,2,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-04,articles,5,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-05,articles,3,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-06,articles,2,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-07,articles,5,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-08,articles,1,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-09,articles,3,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-10,articles,3,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-11,articles,0,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-12,articles,2,nombre d'articles,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-01,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-02,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-03,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-04,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-05,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-06,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-07,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-08,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-09,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-10,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-11,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2017-12,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-01,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-02,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-03,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-04,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-05,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-06,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-07,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-08,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-09,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-10,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-11,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2018-12,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-01,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-02,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-03,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-04,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-05,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-06,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-07,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-08,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-09,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-10,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-11,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2019-12,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-01,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-02,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-03,part_articles,6.6157,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-04,part_articles,81.1739,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-05,part_articles,27.6311,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-06,part_articles,8.6365,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-07,part_articles,6.4463,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-08,part_articles,8.0421,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-09,part_articles,4.866,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-10,part_articles,23.329,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-11,part_articles,4.3515,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2020-12,part_articles,20.0836,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-01,part_articles,5.2374,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-02,part_articles,5.3117,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-03,part_articles,4.7478,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-04,part_articles,5.6198,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-05,part_articles,6.435,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-06,part_articles,3.8763,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-07,part_articles,2.6437,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-08,part_articles,2.0832,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-09,part_articles,2.613,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-10,part_articles,3.9193,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-11,part_articles,1.9564,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2021-12,part_articles,2.5274,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-01,part_articles,3.3326,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-02,part_articles,6.7057,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-03,part_articles,1.5233,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-04,part_articles,2.6688,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-05,part_articles,3.9804,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-06,part_articles,1.3614,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-07,part_articles,2.2579,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-08,part_articles,2.6376,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-09,part_articles,1.1055,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-10,part_articles,1.3664,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-11,part_articles,1.4329,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2022-12,part_articles,1.1749,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-01,part_articles,0.8821,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-02,part_articles,0.5322,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-03,part_articles,0.9478,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-04,part_articles,1.433,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-05,part_articles,0.5244,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-06,part_articles,1.1149,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-07,part_articles,0.5913,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-08,part_articles,0.9765,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-09,part_articles,1.7793,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-10,part_articles,0.4428,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-11,part_articles,1.2783,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2023-12,part_articles,0.8337,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-01,part_articles,1.9854,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-02,part_articles,0.4134,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-03,part_articles,2.0953,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-04,part_articles,0.3838,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-05,part_articles,1.2327,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-06,part_articles,1.5538,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-07,part_articles,1.1618,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-08,part_articles,0.8357,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-09,part_articles,0.9608,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-10,part_articles,1.0004,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-11,part_articles,0.8152,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2024-12,part_articles,1.0266,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-01,part_articles,1.9571,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-02,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-03,part_articles,0.4126,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-04,part_articles,1.024,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-05,part_articles,0.6221,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-06,part_articles,0.8708,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-07,part_articles,1.002,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-08,part_articles,0.1972,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-09,part_articles,0.5995,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-10,part_articles,0.5829,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-11,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,gdelt,MONDE,2025-12,part_articles,0.3941,articles par million d'articles suivis,docs/data/brut/gdelt/dalgona_2026-11-15.csv,2026-11-15
+dalgona,dalgona coffee,google_trends,MONDE,2017-01,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2017-02,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2017-03,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2017-04,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2017-05,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2017-06,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2017-07,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2017-08,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2017-09,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2017-10,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2017-11,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2017-12,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2018-01,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2018-02,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2018-03,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2018-04,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2018-05,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2018-06,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2018-07,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2018-08,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2018-09,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2018-10,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2018-11,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2018-12,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2019-01,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2019-02,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2019-03,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2019-04,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2019-05,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2019-06,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2019-07,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2019-08,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2019-09,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2019-10,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2019-11,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2019-12,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2020-01,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2020-02,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2020-03,interet_recherche,13.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2020-04,interet_recherche,50.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2020-05,interet_recherche,8.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2020-06,interet_recherche,4.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2020-07,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2020-08,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2020-09,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2020-10,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2020-11,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2020-12,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2021-01,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2021-02,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2021-03,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2021-04,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2021-05,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2021-06,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2021-07,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2021-08,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2021-09,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2021-10,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2021-11,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2021-12,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2022-01,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2022-02,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2022-03,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2022-04,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2022-05,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2022-06,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2022-07,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2022-08,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2022-09,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2022-10,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2022-11,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2022-12,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2023-01,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2023-02,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2023-03,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2023-04,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2023-05,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2023-06,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2023-07,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2023-08,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2023-09,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2023-10,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2023-11,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2023-12,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2024-01,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2024-02,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2024-03,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2024-04,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2024-05,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2024-06,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2024-07,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2024-08,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2024-09,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2024-10,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2024-11,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2024-12,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2025-01,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2025-02,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2025-03,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2025-04,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2025-05,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2025-06,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2025-07,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2025-08,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2025-09,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2025-10,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2025-11,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+dalgona,dalgona coffee,google_trends,MONDE,2025-12,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,gdelt,MONDE,2017-01,articles,56,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-02,articles,60,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-03,articles,96,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-04,articles,59,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-05,articles,135,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-06,articles,65,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-07,articles,37,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-08,articles,58,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-09,articles,39,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-10,articles,61,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-11,articles,45,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-12,articles,52,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-01,articles,70,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-02,articles,80,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-03,articles,99,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-04,articles,129,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-05,articles,162,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-06,articles,179,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-07,articles,158,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-08,articles,245,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-09,articles,161,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-10,articles,170,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-11,articles,214,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-12,articles,256,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-01,articles,348,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-02,articles,303,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-03,articles,223,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-04,articles,480,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-05,articles,295,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-06,articles,254,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-07,articles,267,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-08,articles,270,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-09,articles,372,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-10,articles,479,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-11,articles,801,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-12,articles,655,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-01,articles,759,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-02,articles,630,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-03,articles,981,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-04,articles,444,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-05,articles,475,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-06,articles,546,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-07,articles,467,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-08,articles,1004,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-09,articles,349,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-10,articles,332,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-11,articles,188,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-12,articles,685,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-01,articles,524,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-02,articles,816,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-03,articles,505,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-04,articles,619,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-05,articles,1032,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-06,articles,573,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-07,articles,503,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-08,articles,457,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-09,articles,424,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-10,articles,459,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-11,articles,703,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-12,articles,361,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-01,articles,472,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-02,articles,524,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-03,articles,462,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-04,articles,489,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-05,articles,611,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-06,articles,332,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-07,articles,330,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-08,articles,559,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-09,articles,516,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-10,articles,384,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-11,articles,451,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-12,articles,341,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-01,articles,503,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-02,articles,692,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-03,articles,512,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-04,articles,264,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-05,articles,253,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-06,articles,267,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-07,articles,349,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-08,articles,289,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-09,articles,277,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-10,articles,164,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-11,articles,211,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-12,articles,257,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-01,articles,353,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-02,articles,274,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-03,articles,347,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-04,articles,244,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-05,articles,335,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-06,articles,197,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-07,articles,285,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-08,articles,310,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-09,articles,292,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-10,articles,440,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-11,articles,234,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-12,articles,262,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-01,articles,233,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-02,articles,150,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-03,articles,259,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-04,articles,299,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-05,articles,300,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-06,articles,81,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-07,articles,282,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-08,articles,245,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-09,articles,259,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-10,articles,220,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-11,articles,170,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-12,articles,271,nombre d'articles,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-01,part_articles,2.4536,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-02,part_articles,2.8098,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-03,part_articles,4.1842,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-04,part_articles,2.9408,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-05,part_articles,6.7749,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-06,part_articles,3.4551,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-07,part_articles,2.2838,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-08,part_articles,3.4364,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-09,part_articles,2.2748,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-10,part_articles,3.34,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-11,part_articles,2.471,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2017-12,part_articles,3.4221,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-01,part_articles,4.2908,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-02,part_articles,5.3442,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-03,part_articles,5.803,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-04,part_articles,7.8774,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-05,part_articles,9.5254,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-06,part_articles,11.1355,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-07,part_articles,9.5677,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-08,part_articles,15.0659,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-09,part_articles,10.2118,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-10,part_articles,10.2212,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-11,part_articles,13.4692,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2018-12,part_articles,18.0933,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-01,part_articles,23.3677,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-02,part_articles,21.6486,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-03,part_articles,14.5315,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-04,part_articles,31.7838,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-05,part_articles,19.0468,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-06,part_articles,18.318,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-07,part_articles,18.3878,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-08,part_articles,19.3136,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-09,part_articles,27.5395,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-10,part_articles,34.5868,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-11,part_articles,60.2713,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2019-12,part_articles,51.5757,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-01,part_articles,59.552,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-02,part_articles,51.6326,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-03,part_articles,70.543,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-04,part_articles,34.0011,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-05,part_articles,37.7149,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-06,part_articles,43.6625,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-07,part_articles,37.1658,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-08,part_articles,84.9926,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-09,part_articles,30.3255,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-10,part_articles,48.7121,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-11,part_articles,27.2693,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2020-12,part_articles,61.4164,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-01,part_articles,48.1476,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-02,part_articles,80.2656,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-03,part_articles,44.4007,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-04,part_articles,58.9607,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-05,part_articles,100.6197,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-06,part_articles,56.952,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-07,part_articles,51.1458,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-08,part_articles,56.0011,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-09,part_articles,42.6112,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-10,part_articles,46.1277,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-11,part_articles,72.3866,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2021-12,part_articles,38.0167,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-01,part_articles,50.7409,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-02,part_articles,59.5559,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-03,part_articles,46.919,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-04,part_articles,54.3767,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-05,part_articles,67.5565,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-06,part_articles,37.6668,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-07,part_articles,39.2166,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-08,part_articles,67.0198,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-09,part_articles,63.3835,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-10,part_articles,47.6993,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-11,part_articles,58.7487,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2022-12,part_articles,44.5143,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-01,part_articles,63.3873,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-02,part_articles,92.0636,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-03,part_articles,69.3274,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-04,part_articles,54.0434,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-05,part_articles,44.2256,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-06,part_articles,49.6151,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-07,part_articles,68.7839,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-08,part_articles,56.4435,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-09,part_articles,54.7618,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-10,part_articles,36.3087,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-11,part_articles,44.954,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2023-12,part_articles,53.5654,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-01,part_articles,77.8718,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-02,part_articles,56.6336,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-03,part_articles,66.097,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-04,part_articles,46.8274,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-05,part_articles,68.8233,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-06,part_articles,38.2635,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-07,part_articles,55.1842,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-08,part_articles,64.7666,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-09,part_articles,56.1089,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-10,part_articles,88.0348,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-11,part_articles,47.6876,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2024-12,part_articles,53.7958,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-01,part_articles,50.6662,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-02,part_articles,34.6303,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-03,part_articles,53.4356,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-04,part_articles,61.2324,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-05,part_articles,62.2135,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-06,part_articles,35.2683,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-07,part_articles,56.5155,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-08,part_articles,48.3176,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-09,part_articles,51.7586,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-10,part_articles,42.7448,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-11,part_articles,34.3135,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,gdelt,MONDE,2025-12,part_articles,53.4003,articles par million d'articles suivis,docs/data/brut/gdelt/lait-avoine_2026-11-15.csv,2026-11-15
+lait-avoine,oat milk,google_trends,MONDE,2017-01,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2017-02,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2017-03,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2017-04,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2017-05,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2017-06,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2017-07,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2017-08,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2017-09,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2017-10,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2017-11,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2017-12,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2018-01,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2018-02,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2018-03,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2018-04,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2018-05,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2018-06,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2018-07,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2018-08,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2018-09,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2018-10,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2018-11,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2018-12,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2019-01,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2019-02,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2019-03,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2019-04,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2019-05,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2019-06,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2019-07,interet_recherche,3.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2019-08,interet_recherche,3.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2019-09,interet_recherche,3.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2019-10,interet_recherche,3.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2019-11,interet_recherche,3.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2019-12,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2020-01,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2020-02,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2020-03,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2020-04,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2020-05,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2020-06,interet_recherche,4.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2020-07,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2020-08,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2020-09,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2020-10,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2020-11,interet_recherche,4.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2020-12,interet_recherche,4.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2021-01,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2021-02,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2021-03,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2021-04,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2021-05,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2021-06,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2021-07,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2021-08,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2021-09,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2021-10,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2021-11,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2021-12,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2022-01,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2022-02,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2022-03,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2022-04,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2022-05,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2022-06,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2022-07,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2022-08,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2022-09,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2022-10,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2022-11,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2022-12,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2023-01,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2023-02,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2023-03,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2023-04,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2023-05,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2023-06,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2023-07,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2023-08,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2023-09,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2023-10,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2023-11,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2023-12,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2024-01,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2024-02,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2024-03,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2024-04,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2024-05,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2024-06,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2024-07,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2024-08,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2024-09,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2024-10,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2024-11,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2024-12,interet_recherche,6.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2025-01,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2025-02,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2025-03,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2025-04,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2025-05,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2025-06,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2025-07,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2025-08,interet_recherche,9.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2025-09,interet_recherche,8.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2025-10,interet_recherche,8.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2025-11,interet_recherche,8.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+lait-avoine,oat milk,google_trends,MONDE,2025-12,interet_recherche,7.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,gdelt,MONDE,2017-01,articles,7,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-02,articles,3,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-03,articles,0,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-04,articles,0,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-05,articles,0,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-06,articles,6,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-07,articles,0,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-08,articles,4,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-09,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-10,articles,2,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-11,articles,0,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-12,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-01,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-02,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-03,articles,0,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-04,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-05,articles,3,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-06,articles,4,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-07,articles,3,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-08,articles,2,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-09,articles,3,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-10,articles,3,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-11,articles,0,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-12,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-01,articles,0,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-02,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-03,articles,0,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-04,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-05,articles,2,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-06,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-07,articles,2,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-08,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-09,articles,2,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-10,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-11,articles,0,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-12,articles,0,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-01,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-02,articles,2,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-03,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-04,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-05,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-06,articles,0,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-07,articles,2,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-08,articles,2,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-09,articles,2,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-10,articles,0,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-11,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-12,articles,2,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-01,articles,2,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-02,articles,172,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-03,articles,208,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-04,articles,201,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-05,articles,68,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-06,articles,121,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-07,articles,26,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-08,articles,48,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-09,articles,144,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-10,articles,145,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-11,articles,12,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-12,articles,174,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-01,articles,103,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-02,articles,19,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-03,articles,27,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-04,articles,18,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-05,articles,21,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-06,articles,84,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-07,articles,5,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-08,articles,17,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-09,articles,11,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-10,articles,23,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-11,articles,16,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-12,articles,19,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-01,articles,14,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-02,articles,11,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-03,articles,11,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-04,articles,15,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-05,articles,42,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-06,articles,13,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-07,articles,35,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-08,articles,10,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-09,articles,5,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-10,articles,5,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-11,articles,3,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-12,articles,14,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-01,articles,6,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-02,articles,11,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-03,articles,6,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-04,articles,9,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-05,articles,14,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-06,articles,79,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-07,articles,6,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-08,articles,8,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-09,articles,6,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-10,articles,15,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-11,articles,12,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-12,articles,11,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-01,articles,31,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-02,articles,8,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-03,articles,18,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-04,articles,3,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-05,articles,5,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-06,articles,0,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-07,articles,5,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-08,articles,6,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-09,articles,6,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-10,articles,12,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-11,articles,1,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-12,articles,5,nombre d'articles,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-01,part_articles,0.3067,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-02,part_articles,0.1405,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-03,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-04,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-05,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-06,part_articles,0.3189,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-07,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-08,part_articles,0.237,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-09,part_articles,0.0583,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-10,part_articles,0.1095,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-11,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2017-12,part_articles,0.0658,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-01,part_articles,0.0613,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-02,part_articles,0.0668,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-03,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-04,part_articles,0.0611,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-05,part_articles,0.1764,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-06,part_articles,0.2488,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-07,part_articles,0.1817,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-08,part_articles,0.123,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-09,part_articles,0.1903,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-10,part_articles,0.1804,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-11,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2018-12,part_articles,0.0707,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-01,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-02,part_articles,0.0714,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-03,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-04,part_articles,0.0662,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-05,part_articles,0.1291,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-06,part_articles,0.0721,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-07,part_articles,0.1377,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-08,part_articles,0.0715,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-09,part_articles,0.1481,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-10,part_articles,0.0722,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-11,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2019-12,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-01,part_articles,0.0785,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-02,part_articles,0.1639,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-03,part_articles,0.0719,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-04,part_articles,0.0766,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-05,part_articles,0.0794,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-06,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-07,part_articles,0.1592,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-08,part_articles,0.1693,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-09,part_articles,0.1738,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-10,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-11,part_articles,0.145,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2020-12,part_articles,0.1793,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-01,part_articles,0.1838,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-02,part_articles,16.9187,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-03,part_articles,18.2878,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-04,part_articles,19.1456,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-05,part_articles,6.63,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-06,part_articles,12.0265,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-07,part_articles,2.6437,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-08,part_articles,5.882,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-09,part_articles,14.4717,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-10,part_articles,14.5719,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-11,part_articles,1.2356,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2021-12,part_articles,18.3238,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-01,part_articles,11.0727,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-02,part_articles,2.1595,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-03,part_articles,2.742,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-04,part_articles,2.0016,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-05,part_articles,2.3219,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-06,part_articles,9.5301,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-07,part_articles,0.5942,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-08,part_articles,2.0382,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-09,part_articles,1.3512,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-10,part_articles,2.857,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-11,part_articles,2.0842,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2022-12,part_articles,2.4803,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-01,part_articles,1.7643,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-02,part_articles,1.4634,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-03,part_articles,1.4895,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-04,part_articles,3.0706,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-05,part_articles,7.3418,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-06,part_articles,2.4157,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-07,part_articles,6.8981,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-08,part_articles,1.9531,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-09,part_articles,0.9885,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-10,part_articles,1.107,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-11,part_articles,0.6392,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2023-12,part_articles,2.918,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-01,part_articles,1.3236,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-02,part_articles,2.2736,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-03,part_articles,1.1429,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-04,part_articles,1.7272,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-05,part_articles,2.8762,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-06,part_articles,15.3442,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-07,part_articles,1.1618,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-08,part_articles,1.6714,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-09,part_articles,1.1529,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-10,part_articles,3.0012,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-11,part_articles,2.4455,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2024-12,part_articles,2.2586,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-01,part_articles,6.741,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-02,part_articles,1.8469,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-03,part_articles,3.7137,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-04,part_articles,0.6144,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-05,part_articles,1.0369,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-06,part_articles,0.0,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-07,part_articles,1.002,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-08,part_articles,1.1833,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-09,part_articles,1.199,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-10,part_articles,2.3315,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-11,part_articles,0.2018,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,gdelt,MONDE,2025-12,part_articles,0.9852,articles par million d'articles suivis,docs/data/brut/gdelt/pates-feta_2026-11-15.csv,2026-11-15
+pates-feta,feta pasta,google_trends,MONDE,2017-01,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2017-02,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2017-03,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2017-04,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2017-05,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2017-06,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2017-07,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2017-08,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2017-09,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2017-10,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2017-11,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2017-12,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2018-01,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2018-02,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2018-03,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2018-04,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2018-05,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2018-06,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2018-07,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2018-08,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2018-09,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2018-10,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2018-11,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2018-12,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2019-01,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2019-02,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2019-03,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2019-04,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2019-05,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2019-06,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2019-07,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2019-08,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2019-09,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2019-10,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2019-11,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2019-12,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2020-01,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2020-02,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2020-03,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2020-04,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2020-05,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2020-06,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2020-07,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2020-08,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2020-09,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2020-10,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2020-11,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2020-12,interet_recherche,0.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2021-01,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2021-02,interet_recherche,15.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2021-03,interet_recherche,8.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2021-04,interet_recherche,5.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2021-05,interet_recherche,3.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2021-06,interet_recherche,3.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2021-07,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2021-08,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2021-09,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2021-10,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2021-11,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2021-12,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2022-01,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2022-02,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2022-03,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2022-04,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2022-05,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2022-06,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2022-07,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2022-08,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2022-09,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2022-10,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2022-11,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2022-12,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2023-01,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2023-02,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2023-03,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2023-04,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2023-05,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2023-06,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2023-07,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2023-08,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2023-09,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2023-10,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2023-11,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2023-12,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2024-01,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2024-02,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2024-03,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2024-04,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2024-05,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2024-06,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2024-07,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2024-08,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2024-09,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2024-10,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2024-11,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2024-12,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2025-01,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2025-02,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2025-03,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2025-04,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2025-05,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2025-06,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2025-07,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2025-08,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2025-09,interet_recherche,2.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2025-10,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2025-11,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
+pates-feta,feta pasta,google_trends,MONDE,2025-12,interet_recherche,1.0,indice 0-100 relatif à l'export,docs/data/brut/google_trends/monde_2026-11-16.csv,2026-11-16
